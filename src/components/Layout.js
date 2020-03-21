@@ -4,11 +4,9 @@ import 'reset-css'
 
 const Layout = styled.div`
   display: flex;
-  height: 100%;
   justify-content: center;
-  align-items: center;
-  overflow: auto;
-  margin-top: 80px;
+  overflow-x: auto;
+  margin-top: 100px;
 `
 
 export default (props) => {

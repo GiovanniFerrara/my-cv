@@ -5,12 +5,11 @@ import 'typeface-roboto'
 const ButtonBase = styled.button`
   border: 1px solid #fff;
   color: #fff;
-  padding: 12px!important;
+  padding: 12px;
   background-color: #000;
   text-decoration: none;
   font-size: 16px;
   box-shadow: none;
-  padding: 15px 32px;
   text-align: center;
   display: inline-block;
   opacity: 1;
