@@ -13,7 +13,6 @@ const ButtonBase = styled.button`
   text-align: center;
   display: inline-block;
   opacity: 1;
-  font-family: 'Source Sans Pro', sans-serif;
   width: ${props => props.width};
   cursor: pointer;
   

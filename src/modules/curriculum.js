@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import Layout from '../components/Layout'
 import A4 from '../components/A4'
-import HeaderControls from './header-controls'
+import ControlPanel from './control-panel'
 import { ZOOM_TYPE, ZOOM_STEP } from '../config'
+import Header from './cv-header'
+import Body from './cv-body'
 
 export default () => {
   const [scaleFactor, setScaleFactor] = useState(4)
@@ -20,9 +22,10 @@ export default () => {
   return (
     <ThemeProvider theme={{scaleFactor: scaleFactor/4}}>
       <Layout>
-        <HeaderControls handleZoomChange={handleZoomChange} />
+        <ControlPanel handleZoomChange={handleZoomChange} />
         <A4 scaleFactor={scaleFactor}>
-          Hello world
+          <Header />
+          <Body />
         </A4>
     </Layout>
     </ThemeProvider>

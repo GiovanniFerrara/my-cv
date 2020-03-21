@@ -6,6 +6,8 @@ const A4Base = styled.div`
   height: ${props => 270 * (props.scaleFactor || 1)}px;
   background: #fff;
   margin-bottom: 80px;
+  position: relative;
+  z-index: 0;
 `
 
 const A4 = (props) => {

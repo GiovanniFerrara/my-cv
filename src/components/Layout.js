@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import 'reset-css'
+import '../global-styles.css'
 
 const Layout = styled.div`
   display: flex;
