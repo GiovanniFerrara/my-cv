@@ -1,6 +1,5 @@
 import React from "react"
-import { Redirect } from "@reach/router"
-
-const IndexPage = () => <Redirect noThrow from="" to="/blog" />
+import Curriculum from '../modules/curriculum'
+const IndexPage = () => <Curriculum/>
 
 export default IndexPage
