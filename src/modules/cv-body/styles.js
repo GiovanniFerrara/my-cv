@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => props.theme.scaleFactor *16}px;
+  margin-bottom: ${props => props.theme.scaleFactor * (props.mb || 16)}px;
 `
 export const Period = styled.div`
   display: flex;

@@ -8,6 +8,7 @@ import JobCard from './job-card'
 import EducationCard from './education-card'
 import ProjectCard from './project-card'
 import LanguageCard from './language-card'
+import SkillCard from './skill-card'
 
 const Body = styled.div`
   display: flex;
@@ -75,6 +76,7 @@ export default () => {
           }
         }
       }
+
       languages: allMarkdownRemark(filter: {frontmatter: {type: {eq: "language"}}},  sort: {order:ASC, fields:frontmatter___order}) {
         edges {
           node {
@@ -88,6 +90,17 @@ export default () => {
                   }
                 }
               }
+            }
+          }
+        }
+      }
+
+      skills: allMarkdownRemark(filter: {frontmatter: {type: {eq: "skill"}}},  sort: {order:ASC, fields:frontmatter___order}) {
+        edges {
+          node {
+            list: html
+            frontmatter{
+              title
             }
           }
         }
@@ -114,6 +127,7 @@ export default () => {
             title={title}
             description={job.node.description} />)
         })}
+
         <SectionTitle>
           EDUCATION
         </SectionTitle>
@@ -143,6 +157,7 @@ export default () => {
             title={project.node.frontmatter.title}
             description={project.node.description} />)
           })}
+
         <SectionTitle>
           LANGUGES
         </SectionTitle>
@@ -156,6 +171,18 @@ export default () => {
             image={image.childImageSharp.fixed.src}
             level={level} />)
           })}
+
+        <SectionTitle>
+          TECHNICAL SKILLS
+        </SectionTitle>
+        {data.skills.edges.map( skill => {
+
+          return (
+            <SkillCard
+              key={skill.node.frontmatter.title}
+              title={skill.node.frontmatter.title}
+              list={skill.node.list} />)
+        } )}
       </Column>
     </Body>
   )
