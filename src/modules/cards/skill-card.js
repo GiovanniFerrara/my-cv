@@ -1,22 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImageWithLabel from '../../components/ImageWithLabel'
-import { Card, Title } from './styles'
+import { Card, Title } from '../styles'
 
 const List = styled.div`
-  > ul > li {
+  >ul > li {
     display: inline-block;
+    border-radius: ${props => props.theme.scaleFactor*16}px;
+    padding: ${props => props.theme.scaleFactor*4}px ${props => props.theme.scaleFactor*8}px;
+    margin-right: ${props => props.theme.scaleFactor*5}px;
     margin-top: ${props => props.theme.scaleFactor*5}px;
+    color: #fff;
+    background-color: #333;
     line-height: normal;
-    font-size: ${props => props.theme.scaleFactor*14}px;
-    :after{
-      content: ','
-    }
-    :last-child{
-      :after{
-        content:'.'
-      }
-    }
+    font-size: ${props => props.theme.scaleFactor*12}px;
   }
 `
 

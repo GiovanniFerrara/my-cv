@@ -7,7 +7,7 @@ const ControlPanelBase = styled.div`
   position: fixed;
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background: rgba(0,0,0, 0.6);
   top: 0;
@@ -19,6 +19,7 @@ const Zoom = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-left: 30px;
 `
 
 const ControlPanel = (props) => {

@@ -9,6 +9,7 @@ const A4Base = styled.div`
   z-index: 0;
   margin-bottom: 100px;
   margin-top: 100px;
+  box-shadow: -8px 10px 46px 0px rgba(0,0,0,0.35);
 `
 
 const A4 = (props) => {

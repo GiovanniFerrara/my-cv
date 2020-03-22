@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Title, Description } from './styles'
+import { Card, Title, Description } from '../styles'
 
 export default ({title, description }) => {
   return (

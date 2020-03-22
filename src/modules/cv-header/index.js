@@ -29,7 +29,8 @@ export default () => {
         GIOVANNI FERRARA
       </Title>
       <SubHeader>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"</SubHeader>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+      </SubHeader>
     </Header>
   )
 }

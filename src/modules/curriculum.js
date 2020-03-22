@@ -5,6 +5,7 @@ import A4 from '../components/A4'
 import ControlPanel from './control-panel'
 import { ZOOM_TYPE, ZOOM_STEP } from '../config'
 import Header from './cv-header'
+import Footer from './cv-footer'
 import Body from './cv-body'
 
 export default () => {
@@ -26,6 +27,7 @@ export default () => {
         <A4 scaleFactor={scaleFactor}>
           <Header />
           <Body />
+          <Footer />
         </A4>
     </Layout>
     </ThemeProvider>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImageWithLabel from '../../components/ImageWithLabel'
-import { Card } from './styles'
+import { Card } from '../styles'
 
 export default ({image, level, language}) => {
   const ContentBase = styled.div`

@@ -4,12 +4,12 @@ import { useStaticQuery, graphql } from 'gatsby'
 import 'typeface-quicksand'
 
 import SectionTitle from '../../components/SectionTitle'
-import JobCard from './job-card'
-import EducationCard from './education-card'
-import ProjectCard from './project-card'
-import LanguageCard from './language-card'
-import SkillCard from './skill-card'
-import InterestCard from './interest-card'
+import JobCard from '../cards/job-card'
+import EducationCard from '../cards/education-card'
+import ProjectCard from '../cards/project-card'
+import LanguageCard from '../cards/language-card'
+import SkillCard from '../cards/skill-card'
+import InterestCard from '../cards/interest-card'
 
 const Body = styled.div`
   display: flex;
