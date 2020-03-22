@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import moment from 'moment'
 import githubSrc from '../../assets/github.png'
 import linkedinSrc from '../../assets/linkedin.png'
+import bgSrc from '../../assets/bg.png'
 
 const Footer = styled.div`
   display: flex;
@@ -16,6 +17,9 @@ const Footer = styled.div`
   bottom: 0;
   height: ${props => props.theme.scaleFactor*60}px;
   font-weight: 500;
+  background-image: url("${bgSrc}");
+  background-position: center;
+  background-size: cover;
 `
 
 const Column = styled.div`

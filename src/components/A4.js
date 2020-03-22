@@ -12,12 +12,10 @@ const A4Base = styled.div`
   box-shadow: -8px 10px 46px 0px rgba(0,0,0,0.35);
 `
 
-const A4 = (props) => {
+export default (props) => {
   return (
-    <A4Base scaleFactor={props.scaleFactor}>
+    <A4Base ref={props.A4ref} scaleFactor={props.scaleFactor}>
      {props.children}
     </A4Base>
   )
 }
-
-export default A4

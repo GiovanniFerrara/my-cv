@@ -1,13 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import 'typeface-quicksand'
+import bgSrc from '../../assets/bg.png'
 
 const Header = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   height: ${props => props.theme.scaleFactor*180}px;
-  background: #99f;
+  background-image: url("${bgSrc}");
+  background-position: center;
+  background-size: cover;
   align-items: center;
 `
 

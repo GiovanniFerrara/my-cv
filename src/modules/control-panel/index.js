@@ -25,7 +25,7 @@ const Zoom = styled.div`
 const ControlPanel = (props) => {
   return (
     <ControlPanelBase>
-      <Button> Export To Pdf</Button>
+      <Button onClick={props.downloadPDF}> Export To Pdf</Button>
       <Zoom>
         <Button onClick={()=>props.handleZoomChange(ZOOM_TYPE.IN)} width='40px'>+</Button>
         <Button onClick={()=>props.handleZoomChange(ZOOM_TYPE.OUT)} width='40px'>-</Button>
