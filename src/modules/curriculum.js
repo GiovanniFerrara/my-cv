@@ -21,7 +21,7 @@ export default () => {
   }
   return (
     <ThemeProvider theme={{scaleFactor: scaleFactor/4}}>
-      <Layout>
+      <Layout scaleFactor={scaleFactor}>
         <ControlPanel handleZoomChange={handleZoomChange} />
         <A4 scaleFactor={scaleFactor}>
           <Header />

@@ -2,12 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 const A4Base = styled.div`
-  width: ${props => 210 * (props.scaleFactor || 1)}px;
-  height: ${props => 270 * (props.scaleFactor || 1)}px;
+  width: ${props => 210 * (props.scaleFactor)}px;
+  height: ${props => 270 * (props.scaleFactor)}px;
   background: #fff;
-  margin-bottom: 80px;
-  position: relative;
+  position: absolute;
   z-index: 0;
+  margin-bottom: 100px;
+  margin-top: 100px;
 `
 
 const A4 = (props) => {

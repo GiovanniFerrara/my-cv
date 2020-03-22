@@ -11,6 +11,7 @@ const ControlPanelBase = styled.div`
   align-items: center;
   background: rgba(0,0,0, 0.6);
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 10;
 `

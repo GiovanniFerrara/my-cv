@@ -4,15 +4,17 @@ import 'reset-css'
 import '../global-styles.css'
 
 const Layout = styled.div`
+  position: relative;
+  height: inherit;
   display: flex;
   justify-content: center;
+  min-width: ${props => 210 * (props.scaleFactor)}px;
   overflow-x: auto;
-  margin-top: 100px;
 `
 
 export default (props) => {
   return (
-    <Layout>
+    <Layout {...props}>
       {props.children}
     </Layout>
   )
