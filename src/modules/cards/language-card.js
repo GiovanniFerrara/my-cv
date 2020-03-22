@@ -11,7 +11,7 @@ export default ({image, level, language}) => {
   const Content = <ContentBase>{language} | {level}</ContentBase>
   return (
     <Card>
-      <ImageWithLabel text={Content} image={image}  />
+      <ImageWithLabel imageSize={25} text={Content} image={image}  />
     </Card>
   )
 }
