@@ -8,5 +8,3 @@ type: job
 ---
 
 Plan ahead if you want to visit Fernando de Noronha, an archipelago of 21 islands and islets in the Atlantic Ocean. To protect these fragile islands, only 460 tourists are allowed to visit these unspoiled.
-
-[Original content](https://www.touropia.com/islands-in-brazil/)
