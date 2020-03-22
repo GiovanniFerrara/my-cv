@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImageWithLabel from '../../components/ImageWithLabel'
 import { Card, Title } from '../styles'
 
 const List = styled.div`
