@@ -7,7 +7,6 @@ import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR } from '../config'
 import Header from './cv-header'
 import Footer from './cv-footer'
 import Body from './cv-body'
-import * as jsPDF from "jspdf"
 
 export default () => {
   const [scaleFactor, setScaleFactor] = useState(INIT_SCALE_FACTOR)
@@ -21,6 +20,7 @@ export default () => {
   }
   
   const downloadPDF = async () => {
+    const jsPDF = require('jspdf')
     const filename = "GiovanniFerrara.pdf"
     const canvasFinalData = await canvasData()
       let pdf = new jsPDF("p", "mm", "a4")
