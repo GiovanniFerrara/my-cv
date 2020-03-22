@@ -1,10 +1,10 @@
 ---
 university: University of Palermo
 title: Master Degree - Civil Engineering
-startPeriod: 2016-01-10
-endPeriod: 2013-01-10
+startPeriod: 2013-10-01
+endPeriod: 2015-10-01
 image: ./unipa.jpg
 type: education
 ---
 
-Plan ahead if you want to visit Fernando de Noronha, an archipelago of 21 islands and islets in the Atlantic Ocean.
+Specialized in Geotechnics and Structural Engineering, with the highest grades: 110/110

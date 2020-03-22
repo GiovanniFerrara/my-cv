@@ -9,6 +9,7 @@ import EducationCard from './education-card'
 import ProjectCard from './project-card'
 import LanguageCard from './language-card'
 import SkillCard from './skill-card'
+import InterestCard from './interest-card'
 
 const Body = styled.div`
   display: flex;
@@ -105,7 +106,18 @@ export default () => {
           }
         }
       }
+
+    interests: allMarkdownRemark(filter: {frontmatter: {type: {eq: "interest"}}}) {
+      edges {
+        node {
+          list: html
+          frontmatter{
+            title
+          }
+        }
+      }
     }
+  }
   `)
 
   return (
@@ -182,6 +194,18 @@ export default () => {
               key={skill.node.frontmatter.title}
               title={skill.node.frontmatter.title}
               list={skill.node.list} />)
+        } )}
+
+        <SectionTitle>
+          INTERESTS
+        </SectionTitle>
+        {data.interests.edges.map( interest => {
+
+        return (
+          <InterestCard
+            key={interest.node.frontmatter.title}
+            title={interest.node.frontmatter.title}
+            list={interest.node.list} />)
         } )}
       </Column>
     </Body>
