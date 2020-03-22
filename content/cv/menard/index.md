@@ -1,10 +1,11 @@
 ---
 companyName: Menard
-title: Sofware developer
-startPeriod: 2018-01-10
-endPeriod: 2018-05-10
+title: Geothecnical Enginer
+startPeriod: 2016-08-01
+endPeriod: 2018-05-01
 image: ./menard.jpg
 type: job
 ---
 
-Plan ahead if you want to visit Fernando de Noronha, an archipelago of 21 islands and islets in the Atlantic Ocean. To protect these fragile islands, only 460 tourists are allowed to visit these unspoiled.
+- Improving the design workflow by developing spreadsheets Matlab programs to automatize repetitive calculations.
+- Designing soil improvement for projects such as the aeroplane runway commissioned by USA army in Łask, Poland.

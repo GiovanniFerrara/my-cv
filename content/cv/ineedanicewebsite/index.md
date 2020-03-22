@@ -1,12 +1,14 @@
 ---
 companyName: ineedanicewebsite.com
-title: Owner
-startPeriod: 2018-01-10
+title: Owner - Web developer
+startPeriod: 2018-01-01
 endPeriod: current
 image: ./innedanicewebsite.png
 type: job
 ---
 
-- Plan ahead if you want to visit Fernando de Noronha
-- An archipelago of 21 islands and islets in the Atlantic Ocean.
-- To protect these fragile islands, only 460 tourists are allowed to visit these unspoiled.
+- Developing UIs and connecting them with headless CMS data: worked with React, Redux, Gatsby.js, GraphQL, JAM
+  stack, Netlify and Netlify CMS.
+- Created a blog with custom CMS created from scratch with Express, MongoDB, server-side rendering (example:
+  http://www.circuitonutrizione.it/).
+- Created also front end UIs using React and the Jam Stack: (example: https://sisterhoodandsun.com/)

@@ -14,8 +14,8 @@ const Image = styled.img`
   object-position: center;
 `
 const RoundShape = styled.div`
-  width: ${props => props.theme.scaleFactor *40}px;
-  height: ${props => props.theme.scaleFactor *40}px;
+  width: ${props => props.theme.scaleFactor *36}px;
+  height: ${props => props.theme.scaleFactor *36}px;
 `
 const Label = styled.div`
   margin-left: ${props => props.theme.scaleFactor *8}px; 

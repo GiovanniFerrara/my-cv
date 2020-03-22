@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const A4Base = styled.div`
   width: ${props => 210 * (props.scaleFactor)}px;
-  height: ${props => 270 * (props.scaleFactor)}px;
+  height: ${props => 297 * (props.scaleFactor)}px;
   background: #fff;
   position: absolute;
   z-index: 0;

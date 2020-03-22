@@ -1,10 +1,11 @@
 ---
 companyName: Sportradar
 title: Sofware developer
-startPeriod: 2018-01-10
+startPeriod: 2019-04-10
 endPeriod: current
 image: ./sportradar.jpg
 type: job
 ---
 
-Plan ahead if you want to visit Fernando de Noronha, an archipelago of 21 islands and islets in the Atlantic Ocean. To protect these fragile islands, only 460 tourists are allowed to visit these unspoiled.
+- Creating a new entire module from scratch in a software for sports data monitoring ( by filtering, sorting, creating reports...) building the UI with React, Redux, styled-components and using some of dev tools like jest, mocha, CD/CI.
+- Upgrading the micro-services based on AWS cloud.

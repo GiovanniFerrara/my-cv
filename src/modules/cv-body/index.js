@@ -17,14 +17,13 @@ const Column = styled.div`
   font-size: ${props => 16*props.theme.scaleFactor}px;
   flex: 1;
   margin: 0 ${props => 20*props.theme.scaleFactor}px;
-  max-height: ${props => 760*props.theme.scaleFactor}px;
   border: 1px solid yellow;
 `
 
 export default () => {
   const data = useStaticQuery(graphql`
     {
-      jobs: allMarkdownRemark(filter: {frontmatter: {type: {eq: "job"}}}) {
+      jobs: allMarkdownRemark(filter: {frontmatter: {type: {eq: "job"}}}, sort: {order:DESC, fields:frontmatter___startPeriod}) {
         edges {
           node {
             description: html
