@@ -7,7 +7,6 @@ import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR } from '../config'
 import Header from './cv-header'
 import Footer from './cv-footer'
 import Body from './cv-body'
-import html2canvas from "html2canvas"
 import * as jsPDF from "jspdf"
 
 export default () => {
@@ -15,6 +14,7 @@ export default () => {
   const A4ref = useRef()
 
   const canvasData = (quality = 3) => {
+    const html2canvas = require('html2canvas')
     return html2canvas(A4ref.current, {
       scale: quality
     })
