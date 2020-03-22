@@ -1,8 +1,8 @@
 ---
-companyName: menard
+companyName: Menard
 title: Sofware developer
-period: 2018-01-10
-author: touropia.com
+startPeriod: 2018-01-10
+endPeriod: 2018-05-10
 image: ./fernando_de_noronha.jpg
 type: job
 ---
