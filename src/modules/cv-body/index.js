@@ -5,16 +5,16 @@ import 'typeface-quicksand'
 
 import SectionTitle from '../../components/SectionTitle'
 import JobCard from './job-card'
+import EducationCard from './education-card'
 
 const Body = styled.div`
   display: flex;
   justify-content: space-evenly;
-  margin: 0 20px;
+  margin: 0 ${props => 20*props.theme.scaleFactor}px;
 `
 
 const Column = styled.div`
   font-size: ${props => 16*props.theme.scaleFactor}px;
-  padding-top: 24px;
   flex: 1;
   margin: 0 ${props => 20*props.theme.scaleFactor}px;
   max-height: ${props => 760*props.theme.scaleFactor}px;
@@ -24,7 +24,7 @@ const Column = styled.div`
 export default () => {
   const data = useStaticQuery(graphql`
     {
-      allMarkdownRemark(filter: {frontmatter: {type: {eq: "job"}}}) {
+      jobs: allMarkdownRemark(filter: {frontmatter: {type: {eq: "job"}}}) {
         edges {
           node {
             description: html
@@ -33,6 +33,27 @@ export default () => {
               startPeriod
               endPeriod
               companyName
+              image {
+                childImageSharp{
+                  fixed{
+                    src
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      educations: allMarkdownRemark(filter: {frontmatter: {type: {eq: "education"}}}) {
+        edges {
+          node {
+            description: html
+            frontmatter{
+              title
+              startPeriod
+              endPeriod
+              university
               image {
                 childImageSharp{
                   fixed{
@@ -53,7 +74,7 @@ export default () => {
         <SectionTitle>
           WORK EXPERIENCE
         </SectionTitle>
-        {data.allMarkdownRemark.edges.map( job => {
+        {data.jobs.edges.map( job => {
           const {image, companyName, startPeriod, endPeriod, title} = job.node.frontmatter
 
           return (
@@ -61,6 +82,22 @@ export default () => {
             key={companyName}
             image={image.childImageSharp.fixed.src}
             companyName={companyName}
+            startPeriod={startPeriod}
+            endPeriod={endPeriod}
+            title={title}
+            description={job.node.description} />)
+        })}
+        <SectionTitle>
+          EDUCATION
+        </SectionTitle>
+        {data.educations.edges.map( job => {
+          const {image, university, startPeriod, endPeriod, title} = job.node.frontmatter
+
+          return (
+          <EducationCard
+            key={university}
+            image={image.childImageSharp.fixed.src}
+            university={university}
             startPeriod={startPeriod}
             endPeriod={endPeriod}
             title={title}
