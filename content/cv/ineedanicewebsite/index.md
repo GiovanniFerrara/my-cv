@@ -3,11 +3,9 @@ companyName: ineedanicewebsite.com
 title: Owner
 startPeriod: 2018-01-10
 endPeriod: current
-image: ./fernando_de_noronha.jpg
+image: ./innedanicewebsite.png
 type: job
 ---
-
-Compare
 
 - Plan ahead if you want to visit Fernando de Noronha
 - An archipelago of 21 islands and islets in the Atlantic Ocean.

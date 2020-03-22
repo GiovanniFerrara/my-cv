@@ -3,7 +3,7 @@ companyName: Menard
 title: Sofware developer
 startPeriod: 2018-01-10
 endPeriod: 2018-05-10
-image: ./fernando_de_noronha.jpg
+image: ./menard.jpg
 type: job
 ---
 
