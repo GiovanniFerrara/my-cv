@@ -12,7 +12,6 @@ export const Period = styled.div`
 `
 
 export const Title = styled.div`
-  display: flex;
   margin-top: ${props => props.theme.scaleFactor *8}px;
   flex: 1;
   font-weight: 500;

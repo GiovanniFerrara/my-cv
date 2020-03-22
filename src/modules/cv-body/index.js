@@ -6,6 +6,8 @@ import 'typeface-quicksand'
 import SectionTitle from '../../components/SectionTitle'
 import JobCard from './job-card'
 import EducationCard from './education-card'
+import ProjectCard from './project-card'
+import LanguageCard from './language-card'
 
 const Body = styled.div`
   display: flex;
@@ -17,7 +19,6 @@ const Column = styled.div`
   font-size: ${props => 16*props.theme.scaleFactor}px;
   flex: 1;
   margin: 0 ${props => 20*props.theme.scaleFactor}px;
-  border: 1px solid yellow;
 `
 
 export default () => {
@@ -64,6 +65,33 @@ export default () => {
           }
         }
       }
+      side_projects: allMarkdownRemark(filter: {frontmatter: {type: {eq: "side_project"}}}) {
+        edges {
+          node {
+            description: html
+            frontmatter{
+              title
+            }
+          }
+        }
+      }
+      languages: allMarkdownRemark(filter: {frontmatter: {type: {eq: "language"}}},  sort: {order:ASC, fields:frontmatter___order}) {
+        edges {
+          node {
+            frontmatter{
+              language
+              level
+              image {
+                childImageSharp{
+                  fixed{
+                    src
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   `)
 
@@ -89,8 +117,8 @@ export default () => {
         <SectionTitle>
           EDUCATION
         </SectionTitle>
-        {data.educations.edges.map( job => {
-          const {image, university, startPeriod, endPeriod, title} = job.node.frontmatter
+        {data.educations.edges.map( education => {
+          const {image, university, startPeriod, endPeriod, title} = education.node.frontmatter
 
           return (
           <EducationCard
@@ -100,13 +128,34 @@ export default () => {
             startPeriod={startPeriod}
             endPeriod={endPeriod}
             title={title}
-            description={job.node.description} />)
+            description={education.node.description} />)
         })}
       </Column>
       <Column>
         <SectionTitle>
-          WORK EXPERIENCE
+          SIDE PROJECTS
         </SectionTitle>
+
+        {data.side_projects.edges.map( project => {
+          return (
+          <ProjectCard
+            key={project.node.frontmatter.title}
+            title={project.node.frontmatter.title}
+            description={project.node.description} />)
+          })}
+        <SectionTitle>
+          LANGUGES
+        </SectionTitle>
+        {data.languages.edges.map( lang => {
+          const { image, level, language } = lang.node.frontmatter
+
+          return (
+          <LanguageCard
+            key={language}
+            language={language}
+            image={image.childImageSharp.fixed.src}
+            level={level} />)
+          })}
       </Column>
     </Body>
   )
