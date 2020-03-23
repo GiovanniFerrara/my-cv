@@ -1,6 +1,6 @@
 ---
-name: Giovanni Ferrara
-subheader: Telegram Chatbot designed to respond to specific questions and written
+name: GIOVANNI FERRARA
+subheader: I'm a Software Engineer | I like Clean Code and Clear Communication
 
 birthdate: 1989-03-17
 phone: +48 796 798 591
@@ -11,5 +11,3 @@ linkedin: https://www.linkedin.com/in/giovanni-marco-ferrara/
 type: personal_info
 birth_country: Italy
 ---
-
-Telegram Chatbot designed to respond to specific questions and written [blog article](https://www.linkedin.com/pulse/coding-telegram-bot-using-nodejs-giovanni-marco-ferrara/) about it

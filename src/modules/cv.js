@@ -3,10 +3,11 @@ import { ThemeProvider } from 'styled-components'
 import Layout from '../components/Layout'
 import A4 from '../components/A4'
 import ControlPanel from './control-panel'
-import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR } from '../config'
+import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR, ZOOM_BOUNDS } from '../config'
 import Header from './cv-header'
 import Footer from './cv-footer'
 import Body from './cv-body'
+import 'typeface-quicksand'
 
 export default () => {
   const [scaleFactor, setScaleFactor] = useState(INIT_SCALE_FACTOR)
@@ -21,7 +22,7 @@ export default () => {
   
   const downloadPDF = async () => {
     const jsPDF = require('jspdf')
-    const filename = "GiovanniFerrara.pdf"
+    const filename = "Giovanni Ferrara CV.pdf"
     const canvasFinalData = await canvasData()
       let pdf = new jsPDF("p", "mm", "a4")
       pdf.addImage(
@@ -37,15 +38,15 @@ export default () => {
 
   const handleZoomChange = (type)=> {
     if(type===ZOOM_TYPE.IN){
-      if(scaleFactor > 8) return
+      if(scaleFactor > ZOOM_BOUNDS.MAX) return
       setScaleFactor(scaleFactor+ZOOM_STEP)
     } else {
-      if(scaleFactor < 3) return
+      if(scaleFactor < ZOOM_BOUNDS.MIN) return
       setScaleFactor(scaleFactor-ZOOM_STEP)
     }
   }
   return (
-    <ThemeProvider theme={{scaleFactor: scaleFactor/4}}>
+    <ThemeProvider theme={{scaleFactor: scaleFactor/INIT_SCALE_FACTOR}}>
       <Layout scaleFactor={scaleFactor}>
         <ControlPanel handleZoomChange={handleZoomChange} downloadPDF={downloadPDF} />
         <A4 scaleFactor={scaleFactor} A4ref={A4ref}>

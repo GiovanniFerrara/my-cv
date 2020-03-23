@@ -171,7 +171,7 @@ export default () => {
           })}
 
         <SectionTitle>
-          LANGUGES
+          LANGUAGES
         </SectionTitle>
         {data.languages.edges.map( lang => {
           const { image, level, language } = lang.node.frontmatter

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import 'typeface-quicksand'
+import { useStaticQuery, graphql } from 'gatsby'
 import bgSrc from '../../assets/bg.png'
+
 
 const Header = styled.div`
   display: flex;
@@ -26,13 +27,23 @@ const SubHeader = styled.p`
 `
 
 export default () => {
+  const data = useStaticQuery(graphql`{
+    info: markdownRemark(frontmatter: {type: {eq: "personal_info"}}){
+        frontmatter{
+          subheader
+          name
+        }
+      }
+  }
+  `)
+
   return (
     <Header>
       <Title>
-        GIOVANNI FERRARA
+      {data.info.frontmatter.name}
       </Title>
       <SubHeader>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+        {data.info.frontmatter.subheader}
       </SubHeader>
     </Header>
   )

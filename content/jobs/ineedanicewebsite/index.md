@@ -11,4 +11,4 @@ type: job
   stack, Netlify and Netlify CMS.
 - Created a blog with custom CMS created from scratch with Express, MongoDB, server-side rendering (example:
   http://www.circuitonutrizione.it/).
-- Created also front end UIs using React and the Jam Stack: (example: https://sisterhoodandsun.com/)
+- Created also front end UIs with the Jam Stack and Contentful: (example: https://sisterhoodandsun.com/).

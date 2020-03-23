@@ -1,3 +1,3 @@
-import Curriculum from '../modules/curriculum'
+import Curriculum from '../modules/cv'
 
 export default Curriculum
