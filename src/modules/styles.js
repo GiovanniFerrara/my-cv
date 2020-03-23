@@ -32,3 +32,11 @@ export const Description = styled.div`
     margin-left: ${props => props.theme.scaleFactor *20}px;
   }
 `
+
+export const Flex = styled.div`
+  align-items: ${props => props.ai};
+  display: flex;
+  flex: 1;
+  justify-content: ${props => props.jc};
+  margin: ${props => props.theme.scaleFactor*(props.my || 0)}px ${props => props.theme.scaleFactor*(props.mx || 0)}px;
+`

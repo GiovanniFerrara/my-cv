@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
+import Image from '../../components/ImageWithLabel'
 import bgSrc from '../../assets/bg.png'
-
+import { Flex } from '../styles'
 
 const Header = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
   height: ${props => props.theme.scaleFactor*180}px;
   background-image: url("${bgSrc}");
   background-position: center;
@@ -16,14 +15,26 @@ const Header = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: ${props => 50*props.theme.scaleFactor}px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-size: ${props => 60*props.theme.scaleFactor}px;
+  font-family: 'Roboto';
+  padding-bottom: ${props => 15*props.theme.scaleFactor}px;
 `
 const SubHeader = styled.p`
   font-size: ${props => 20*props.theme.scaleFactor}px;
-  margin: 0 ${props => 40*props.theme.scaleFactor}px;
   font-family: 'Quicksand', sans-serif;
+  padding-left: ${props => 4*props.theme.scaleFactor}px;
+`
+
+const Presentation = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+`
+const ImgWrapper = styled.div`
+  margin: 0 ${props => 36*props.theme.scaleFactor}px;;
 `
 
 export default () => {
@@ -32,6 +43,13 @@ export default () => {
         frontmatter{
           subheader
           name
+          image {
+            data: childImageSharp{
+              fixed{
+                src
+              }
+            }
+          }
         }
       }
   }
@@ -39,12 +57,19 @@ export default () => {
 
   return (
     <Header>
-      <Title>
-      {data.info.frontmatter.name}
-      </Title>
-      <SubHeader>
-        {data.info.frontmatter.subheader}
-      </SubHeader>
+      <Flex jc='space-between' ai='center'>
+        <ImgWrapper>
+          <Image imageSize={130} image={data.info.frontmatter.image.data.fixed.src} />
+        </ImgWrapper>
+        <Presentation>
+          <Title>
+            {data.info.frontmatter.name}
+          </Title>
+          <SubHeader>
+            {data.info.frontmatter.subheader}
+          </SubHeader>
+        </Presentation>
+      </Flex>
     </Header>
   )
 }

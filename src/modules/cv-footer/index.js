@@ -5,6 +5,7 @@ import moment from 'moment'
 import githubSrc from '../../assets/github.png'
 import linkedinSrc from '../../assets/linkedin.png'
 import bgSrc from '../../assets/bg.png'
+import { Flex } from '../styles'
 
 const Footer = styled.div`
   display: flex;
@@ -26,13 +27,6 @@ const Column = styled.div`
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
-`
-
-const Flex = styled.div`
-  display: flex;
-  flex: 1;
-  justify-content: ${props => props.jc};
-  margin: ${props => props.theme.scaleFactor*(props.my || 0)}px ${props => props.theme.scaleFactor*24}px;
 `
 
 const Image = styled.img`
@@ -64,7 +58,7 @@ export default () => {
   const {birthdate, phone, email, address, github, linkedin, birth_country} = data.info.frontmatter
   return (
     <Footer>
-      <Flex>
+      <Flex mx={32}>
         {moment(birthdate).format('DD/MM/YYYY')}, {birth_country}
       </Flex>
       <Column>
@@ -79,7 +73,7 @@ export default () => {
         </Flex>
       </Column>
       <Column>
-        <Flex jc='flex-end'>
+        <Flex mx={32} jc='flex-end'>
           <Link href={github} target='blank'>
             <Image src={githubSrc} />
           </Link>

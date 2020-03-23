@@ -1,6 +1,6 @@
 ---
 name: GIOVANNI FERRARA
-subheader: I'm a Software Engineer | I like Clean Code and Clear Communication
+subheader: I'm a Software Engineer with a background as a Civil Engineer
 
 birthdate: 1989-03-17
 phone: +48 796 798 591
@@ -10,4 +10,5 @@ github: https://www.github.com/GiovanniFerrara/
 linkedin: https://www.linkedin.com/in/giovanni-marco-ferrara/
 type: personal_info
 birth_country: Italy
+image: "./me.jpeg"
 ---

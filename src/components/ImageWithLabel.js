@@ -14,13 +14,13 @@ const Image = styled.img`
   object-position: center;
 `
 const RoundShape = styled.div`
-  width: ${props => props.theme.scaleFactor * (props.imageSize || 36)}px;
-  height: ${props => props.theme.scaleFactor * (props.imageSize || 36)}px;
+  width: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
+  height: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
 `
 const Label = styled.div`
   margin-left: ${props => props.theme.scaleFactor *8}px; 
   font-weight: 500;
-  font-size: ${props => props.theme.scaleFactor *14}px;
+  font-size: ${props => props.theme.scaleFactor *16}px;
 `
 
 export default ({image, imageSize, text}) => {
@@ -29,9 +29,11 @@ export default ({image, imageSize, text}) => {
       <RoundShape imageSize={imageSize}>
         <Image src={image} />
       </RoundShape>
-      <Label>
-        {text}
-      </Label>
+      {text && (
+        <Label>
+          {text}
+        </Label>
+      )}
     </ImageWithLabel>
   )
 }
