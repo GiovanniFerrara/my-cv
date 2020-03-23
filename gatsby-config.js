@@ -1,10 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "My personal blog",
-    titleTemplate: "%s · Blog",
-    description: "Nostrud est duis proident ut dolore ipsum tempor Lorem.",
-    author: "danilowoz",
-    twitterUsername: "@danilowoz",
+    title: "Giovanni Ferrara CV",
+    titleTemplate: "",
+    description: "I'm the Software Engineer to whom you would leave the keys of your flat",
+    author: "Giovanni Ferrara"
   },
   plugins: [
     {
@@ -27,11 +26,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Giovanni Ferrara CV`,
+        short_name: `GF`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#000`,
+        theme_color: `#000`,
         display: `minimal-ui`,
       },
     },
