@@ -38,5 +38,5 @@ export const Flex = styled.div`
   display: flex;
   flex: 1;
   justify-content: ${props => props.jc};
-  margin: ${props => props.theme.scaleFactor*(props.my || 0)}px ${props => props.theme.scaleFactor*(props.mx || 0)}px;
+  margin: ${props => props.theme.scaleFactor * (props.my || 0)}px ${props => props.theme.scaleFactor * (props.mx || 0)}px;
 `

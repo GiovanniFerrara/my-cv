@@ -7,7 +7,7 @@ import { Flex } from '../styles'
 
 const Header = styled.div`
   display: flex;
-  height: ${props => props.theme.scaleFactor*180}px;
+  height: ${props => props.theme.scaleFactor * 180}px;
   background-image: url("${bgSrc}");
   background-position: center;
   background-size: cover;
@@ -15,14 +15,14 @@ const Header = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: ${props => 60*props.theme.scaleFactor}px;
+  font-size: ${props => 60 * props.theme.scaleFactor}px;
   font-family: 'Roboto';
-  padding-bottom: ${props => 15*props.theme.scaleFactor}px;
+  padding-bottom: ${props => 15 * props.theme.scaleFactor}px;
 `
 const SubHeader = styled.p`
-  font-size: ${props => 20*props.theme.scaleFactor}px;
+  font-size: ${props => 17 * props.theme.scaleFactor}px;
   font-family: 'Quicksand', sans-serif;
-  padding-left: ${props => 4*props.theme.scaleFactor}px;
+  padding-left: ${props => 4 * props.theme.scaleFactor}px;
 `
 
 const Presentation = styled.div`
@@ -34,7 +34,7 @@ const Presentation = styled.div`
   height: 100%;
 `
 const ImgWrapper = styled.div`
-  margin: 0 ${props => 36*props.theme.scaleFactor}px;;
+  margin: 0 ${props => 36 * props.theme.scaleFactor}px;;
 `
 
 export default () => {
@@ -45,7 +45,7 @@ export default () => {
           name
           image {
             data: childImageSharp{
-              fixed{
+              fixed(width: 400, height: 400){
                 src
               }
             }

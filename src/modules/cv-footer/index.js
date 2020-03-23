@@ -9,14 +9,14 @@ import { Flex } from '../styles'
 
 const Footer = styled.div`
   display: flex;
-  font-size: ${props => props.theme.scaleFactor*12}px;
+  font-size: ${props => props.theme.scaleFactor * 12}px;
   width: 100%;
   position: absolute;
   justify-content: space-between;
   background: #99f;
   align-items: center;
   bottom: 0;
-  height: ${props => props.theme.scaleFactor*60}px;
+  height: ${props => props.theme.scaleFactor * 60}px;
   font-weight: 500;
   background-image: url("${bgSrc}");
   background-position: center;
@@ -30,12 +30,12 @@ const Column = styled.div`
 `
 
 const Image = styled.img`
-  width: ${props => props.theme.scaleFactor*24}px;
-  height: ${props => props.theme.scaleFactor*24}px;
+  width: ${props => props.theme.scaleFactor * 24}px;
+  height: ${props => props.theme.scaleFactor * 24}px;
 `
 
 const Link = styled.a`
-  margin-left: ${props => props.theme.scaleFactor*8}px;
+  margin-left: ${props => props.theme.scaleFactor * 8}px;
 `
 
 export default () => {

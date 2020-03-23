@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from '../../components/Button'
+import ReactToPrint from 'react-to-print'
 import { ZOOM_TYPE } from '../../config'
 
 const ControlPanelBase = styled.div`
@@ -21,11 +22,15 @@ const Zoom = styled.div`
   align-items: center;
   margin-left: 30px;
 `
-
+        
 const ControlPanel = (props) => {
   return (
     <ControlPanelBase>
-      <Button onClick={props.downloadPDF}> Export To Pdf</Button>
+      <ReactToPrint
+          trigger={()=> <Button onClick={props.downloadPDF}> Export To Pdf</Button>}
+          content={()=>props.getPrintableComponentRef().current}
+          onBeforeGetContent={props.onBeforeGetContent}
+        />
       <Zoom>
         <Button onClick={()=>props.handleZoomChange(ZOOM_TYPE.IN)} width='40px'>+</Button>
         <Button onClick={()=>props.handleZoomChange(ZOOM_TYPE.OUT)} width='40px'>-</Button>

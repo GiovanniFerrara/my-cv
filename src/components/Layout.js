@@ -8,6 +8,8 @@ const Layout = styled.div`
   display: flex;
   justify-content: center;
   min-width: ${props => 210 * (props.scaleFactor)}px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 `
 
 export default (props) => {

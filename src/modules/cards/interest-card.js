@@ -5,9 +5,9 @@ import { Card } from '../styles'
 const List = styled.div`
   > ul > li {
     display: inline-block;
-    margin-top: ${props => props.theme.scaleFactor*5}px;
+    margin-top: ${props => props.theme.scaleFactor * 5}px;
     line-height: normal;
-    font-size: ${props => props.theme.scaleFactor*14}px;
+    font-size: ${props => props.theme.scaleFactor * 14}px;
     :after{
       content: ','
     }
