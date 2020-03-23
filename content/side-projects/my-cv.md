@@ -1,5 +1,5 @@
 ---
-title: My Cv
+title: My CV
 type: side_project
 ---
 
