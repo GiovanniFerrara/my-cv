@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import 'typeface-quicksand'
 import Layout from '../components/Layout'
 import A4 from '../components/A4'
+import SEO from '../components/Seo'
 import ControlPanel from './control-panel'
 import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR, ZOOM_BOUNDS } from '../config'
 import Header from './cv-header'
@@ -33,6 +34,7 @@ export default () => {
   return (
     <ThemeProvider theme={{scaleFactor: scaleFactor/INIT_SCALE_FACTOR}}>
       <Layout scaleFactor={scaleFactor}>
+      <SEO title='Giovanni Ferrara CV' />
         <ControlPanel handleZoomChange={handleZoomChange} onBeforeGetContent={onBeforeGetContentForPrinting} getPrintableComponentRef={getPrintableComponentRef} />
         <A4 scaleFactor={scaleFactor} A4ref={A4ref}>
           <Header />
