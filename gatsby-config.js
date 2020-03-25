@@ -32,6 +32,7 @@ module.exports = {
         background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
+        icon: `content/personal-info/me.png`,
       },
     },
   ],
