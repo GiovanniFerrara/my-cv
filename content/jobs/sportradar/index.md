@@ -7,5 +7,5 @@ image: ./sportradar.jpg
 type: job
 ---
 
-- Creating a new entire module from scratch in a software for sports data monitoring ( by filtering, sorting, creating reports...) building the UI with React, Redux, styled-components and using some of dev tools like jest, mocha, CD/CI.
+- Creating a new entire module in a web app for sports data monitoring ( by filtering, sorting, creating new reports...) building the UI with React, Redux, styled-components and using some tools like jest, CD/CI.
 - Upgrading the micro-services based on AWS cloud.
