@@ -1,6 +1,6 @@
 ---
 name: GIOVANNI FERRARA
-subheader: I'm the Software Engineer to whom you would leave the keys of your flat
+subheader: The Software Engineer to whom you would leave the keys of your flat
 
 birthdate: 1989-03-17
 phone: +48 796 798 591
