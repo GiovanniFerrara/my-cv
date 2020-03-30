@@ -10,4 +10,5 @@ order: 2
 - GraphQL
 - Styled Components/System
 - Ag-grid
+- Contentful
 - Unit Testing
