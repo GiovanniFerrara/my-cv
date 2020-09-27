@@ -9,4 +9,4 @@ type: job
 
 - Integrating in the existing application the "additional documents upload" module.
 - Creating a statistics dashboard with Typescript/React handling frontend data caching and polling. 
-Both modules are now released succesfully in production.
+Both modules are now released successfully in production.
