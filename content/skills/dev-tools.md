@@ -4,9 +4,7 @@ type: skill
 order: 4
 ---
 
-- Git
-- Github
-- Gitlab
-- Babel
-- Webpack
+- Docker
+- AWS
+- Git/Github
 - CI/CD

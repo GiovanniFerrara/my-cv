@@ -2,7 +2,7 @@
 companyName: Sportradar
 title: Sofware developer
 startPeriod: 2019-04-10
-endPeriod: current
+endPeriod: 2020-04-30
 image: ./sportradar.jpg
 type: job
 ---

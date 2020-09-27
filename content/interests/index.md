@@ -6,5 +6,4 @@ type: interest
 - baking
 - brewing
 - languages
-- football
 - reading

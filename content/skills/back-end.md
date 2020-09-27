@@ -4,9 +4,9 @@ type: skill
 order: 3
 ---
 
-- Node/express
+- Node/Express
 - MongoDB
-- AWS
+- Postgres
 - DynamoDB
+- GraphQL/Apollo
 - Docker
-- Postgress

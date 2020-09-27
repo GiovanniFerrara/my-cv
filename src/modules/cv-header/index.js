@@ -7,7 +7,7 @@ import { Flex } from '../styles'
 
 const Header = styled.div`
   display: flex;
-  height: ${props => props.theme.scaleFactor * 180}px;
+  height: ${props => props.theme.scaleFactor * 150}px;
   background-image: url("${bgSrc}");
   background-position: center;
   background-size: cover;

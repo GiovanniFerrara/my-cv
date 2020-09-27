@@ -7,6 +7,5 @@ image: ./esb.jpeg
 type: job
 ---
 
-- Working remotely with a team of developers, building an interface for a web app that connects players of Battlefield V
-  for online competitive live matches.
-- Technologies/frameworks used: Node.js, Express, MongoDB, Mongoose, Passport, Socket.io, Jest, Supertest.
+- Working remotely with in a team, building the backend in web app that connects players of Battlefield V
+  for online competitive live matches. Technologies used: Node.js, Express, MongoDB, Socket.io and more...

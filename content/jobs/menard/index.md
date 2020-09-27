@@ -8,4 +8,3 @@ type: job
 ---
 
 - Improving the design workflow by developing spreadsheets Matlab programs to automatize repetitive calculations.
-- Designing soil improvement for projects such as the aeroplane runway commissioned by USA army in Łask, Poland.

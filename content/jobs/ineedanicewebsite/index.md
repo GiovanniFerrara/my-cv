@@ -9,6 +9,4 @@ type: job
 
 - Developing UIs and connecting them with headless CMS data: worked with React, Redux, Gatsby.js, GraphQL, JAM
   stack, Netlify and Netlify CMS.
-- Created a blog with custom CMS created from scratch with Express, MongoDB, server-side rendering (example:
-  http://www.circuitonutrizione.it/).
-- Created also front end UIs with the Jam Stack and Contentful: (example: https://sisterhoodandsun.com/).
+- Example of works we've delivered: website with blog and related custom CSM [www.circuitonutrizione.it](http://www.circuitonutrizione.it/), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/) UIs with the Jam Stack and Contentful.

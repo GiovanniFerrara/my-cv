@@ -7,8 +7,9 @@ order: 2
 - React
 - Gatsby.js
 - Redux
-- GraphQL
-- Styled Components/System
-- Ag-grid
+- Graphql/Apollo
+- Styled Components
+- Ag-Grid
 - Contentful
-- Unit Testing
+- Enzyme
+- Jest

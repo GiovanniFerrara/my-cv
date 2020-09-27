@@ -7,4 +7,4 @@ image: ./unipa.jpg
 type: education
 ---
 
-Specialized in Geotechnics and Structural Engineering, with the highest grades: 110/110
+Specialized Structural Engineering, graduated with the highest grade: 110/110

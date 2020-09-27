@@ -5,6 +5,6 @@ order: 1
 ---
 
 - JavaScript
-- Python
+- Typescript
 - Functional Programming
 - OOP
