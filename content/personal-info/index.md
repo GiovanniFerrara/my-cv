@@ -1,6 +1,5 @@
 ---
 name: GIOVANNI FERRARA
-#TODO: change
 subheader: The Software Engineer to whom you would leave the keys of your flat
 
 birthdate: 1989-03-17
