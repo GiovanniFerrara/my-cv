@@ -7,6 +7,6 @@ image: ./ergo.png
 type: job
 ---
 
-- Integrating in the existing application the "additional documents upload" module.
-- Creating a statistics dashboard with Typescript/React handling frontend data caching and polling. 
-Both modules are now released successfully in production.
+- Integrating new modules to the existing application: e.g. adding a encryption-decryption service, a file upload module and performed a restyling of the UI.
+- Creating a statistics dashboard with Typescript/React from scratch. 
+All new modules are now released successfully in production.
