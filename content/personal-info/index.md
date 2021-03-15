@@ -1,6 +1,6 @@
 ---
 name: GIOVANNI FERRARA
-subheader: The Software Engineer to whom you would leave the keys of your flat
+subheader: "If you want your code to be easy to write, make it easy to read. (U.Bob)"
 
 birthdate: 1989-03-17
 phone: +48 796 798 591
