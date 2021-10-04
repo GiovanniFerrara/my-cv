@@ -4,12 +4,12 @@ type: skill
 order: 2
 ---
 
-- React
-- Gatsby.js
+- React with Hooks
 - Redux
 - Graphql/Apollo
 - Styled Components
-- Ag-Grid
+- Gatsby.js
 - Contentful
+- React testing library
 - Enzyme
 - Jest

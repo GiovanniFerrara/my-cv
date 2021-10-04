@@ -7,7 +7,7 @@ import { Flex } from '../styles'
 
 const Header = styled.div`
   display: flex;
-  height: ${props => props.theme.scaleFactor * 150}px;
+  height: ${props => props.theme.scaleFactor * 100}px;
   background-image: url("${bgSrc}");
   background-position: center;
   background-size: cover;
@@ -15,7 +15,7 @@ const Header = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: ${props => 60 * props.theme.scaleFactor}px;
+  font-size: ${props => 40 * props.theme.scaleFactor}px;
   font-family: 'Roboto';
   padding-bottom: ${props => 15 * props.theme.scaleFactor}px;
 `
@@ -45,7 +45,7 @@ export default () => {
           name
           image {
             data: childImageSharp{
-              fixed(width: 400, height: 400){
+              fixed(width: 300, height: 300){
                 src
               }
             }
@@ -59,7 +59,7 @@ export default () => {
     <Header>
       <Flex jc='space-between' ai='center'>
         <ImgWrapper>
-          <Image imageSize={130} image={data.info.frontmatter.image.data.fixed.src} />
+          <Image imageSize={80} image={data.info.frontmatter.image.data.fixed.src} />
         </ImgWrapper>
         <Presentation>
           <Title>

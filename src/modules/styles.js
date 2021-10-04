@@ -16,7 +16,7 @@ export const Title = styled.div`
   margin-bottom: ${props => props.theme.scaleFactor * 2}px;
   flex: 1;
   font-weight: 500;
-  font-size: ${props => props.theme.scaleFactor * 16}px;
+  font-size: ${props => props.theme.scaleFactor * 14}px;
 `
 
 export const Description = styled.div`

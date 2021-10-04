@@ -1,6 +1,6 @@
 ---
 name: GIOVANNI FERRARA
-subheader: "If you want your code to be easy to write, make it easy to read. (U.Bob)"
+subheader: "Full Stack Software Engineer"
 
 birthdate: 1989-03-17
 phone: +48 796 798 591

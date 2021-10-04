@@ -4,6 +4,7 @@ type: interest
 
 - Playing music
 - baking
-- brewing
+- brewing beer and wine
+- coffee specialty
 - languages
 - reading

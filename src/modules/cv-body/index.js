@@ -162,7 +162,7 @@ export default () => {
           SIDE PROJECTS
         </SectionTitle>
 
-        {data.side_projects.edges.map( project => {
+        {data.side_projects.edges.sort((a, b) => a.order < b.order).map( project => {
           return (
           <ProjectCard
             key={project.node.frontmatter.title}

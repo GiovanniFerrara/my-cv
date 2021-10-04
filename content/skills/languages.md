@@ -6,5 +6,4 @@ order: 1
 
 - JavaScript
 - Typescript
-- Functional Programming
-- OOP
+- Python (basics)
