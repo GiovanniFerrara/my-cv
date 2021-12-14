@@ -1,17 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImageWithLabel from '../../components/ImageWithLabel'
-import { Card } from '../styles'
+import { Label as LabelBase } from '../styles'
 
-export default ({image, level, language}) => {
-  const ContentBase = styled.div`
-    display: flex;
-    align-items: center;
+export default ({level, language}) => {
+  const LanguageCard = styled.span`
+    font-weight: 400;
+    padding-right: ${props => props.theme.scaleFactor * 4}px;;
+    font-size: ${props => props.theme.scaleFactor * 14}px;
   `
-  const Content = <ContentBase>{language} | {level}</ContentBase>
+
   return (
-    <Card>
-      <ImageWithLabel imageSize={25} text={Content} image={image}  />
-    </Card>
+      <LanguageCard>{language} - {level}, </LanguageCard>
   )
 }

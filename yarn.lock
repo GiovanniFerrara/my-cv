@@ -13190,6 +13190,11 @@
   "resolved" "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   "version" "0.0.6"
 
+"typeface-lato@^1.1.13":
+  "integrity" "sha512-sTn5k3+fagGOi8FQfN2MPeUiTdvG0Z3LVqCaQdsg2sYa0fzNteFZussizdwiPxF45OoFN3zdU/ci+PtjolNSPQ=="
+  "resolved" "https://registry.npmjs.org/typeface-lato/-/typeface-lato-1.1.13.tgz"
+  "version" "1.1.13"
+
 "typeface-quicksand@^1.1.4":
   "integrity" "sha512-J/dTQI5g6V8kK1M38FNn+eHVzImtQtOvVaWA/QU3BNHdx+0NSMh3DL6Ub4CFEo2k5/QAw9vppWMbLVg4vGyXGw=="
   "resolved" "https://registry.npmjs.org/typeface-quicksand/-/typeface-quicksand-1.1.4.tgz"
@@ -13200,10 +13205,10 @@
   "resolved" "https://registry.npmjs.org/typeface-roboto/-/typeface-roboto-0.0.75.tgz"
   "version" "0.0.75"
 
-"typeface-source-sans-pro@^1.1.5":
-  "integrity" "sha512-a+KZN2X7gzZ91RUKB/9zAiEtRuD+aX7dwNTo121vpZz2MVODWSJfw81XZQmIwZ4jD/5658EMvPJHttS6qT0gZA=="
-  "resolved" "https://registry.npmjs.org/typeface-source-sans-pro/-/typeface-source-sans-pro-1.1.5.tgz"
-  "version" "1.1.5"
+"typeface-source-sans-pro@^1.1.13":
+  "integrity" "sha512-eCczLh0FYByjVoMxZVDfSSTI8A6qJOBJftgWBVJL63AuemQTTvMU8DEk6ud/TQhkbIwWZ3A7ll/NfS9yI0lIrQ=="
+  "resolved" "https://registry.npmjs.org/typeface-source-sans-pro/-/typeface-source-sans-pro-1.1.13.tgz"
+  "version" "1.1.13"
 
 "typography-normalize@^0.16.19":
   "integrity" "sha512-vtnSv/uGBZVbd4e/ZhZB9HKBgKKlWQUXw74+ADIHHxzKp27CEf8PSR8TX1zF2qSyQ9/qMdqLwXYz8yRQFq9JLQ=="

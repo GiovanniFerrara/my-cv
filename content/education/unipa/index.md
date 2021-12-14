@@ -7,4 +7,4 @@ image: ./unipa.jpg
 type: education
 ---
 
-Specialized Structural Engineering, graduated with the highest grade: 110/110
+Graduated with the highest grade: 110/110

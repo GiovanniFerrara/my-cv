@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Label } from '../modules/styles'
 
 const ImageWithLabel = styled.div`
   display: flex;
@@ -16,11 +17,7 @@ const Image = styled.img`
 const RoundShape = styled.div`
   width: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
   height: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
-`
-const Label = styled.div`
-  margin-left: ${props => props.theme.scaleFactor *8}px; 
-  font-weight: 500;
-  font-size: ${props => props.theme.scaleFactor *16}px;
+  margin-right: 8px;
 `
 
 export default ({image, imageSize, text}) => {
@@ -29,11 +26,7 @@ export default ({image, imageSize, text}) => {
       <RoundShape imageSize={imageSize}>
         <Image src={image} />
       </RoundShape>
-      {text && (
-        <Label>
-          {text}
-        </Label>
-      )}
+      {text && <Label>{text}</Label>}
     </ImageWithLabel>
   )
 }

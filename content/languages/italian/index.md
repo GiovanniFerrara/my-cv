@@ -1,6 +1,6 @@
 ---
 language: Italian
-level: Native
+level: native
 image: ./ita.png
 type: language
 order: 2

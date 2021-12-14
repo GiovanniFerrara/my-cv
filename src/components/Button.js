@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import 'typeface-roboto'
 
 const ButtonBase = styled.button`
   border: 1px solid #fff;

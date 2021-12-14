@@ -1,6 +1,6 @@
 ---
 language: Polish
-level: Basic
+level: basic
 image: ./pl.png
 type: language
 order: 3

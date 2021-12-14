@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import 'reset-css'
 import '../global-styles.css'
+import 'typeface-quicksand'
+import 'typeface-lato'
 
 const Layout = styled.div`
   height: inherit;

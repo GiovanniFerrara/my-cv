@@ -16,7 +16,7 @@ const Header = styled.div`
 
 const Title = styled.h1`
   font-size: ${props => 40 * props.theme.scaleFactor}px;
-  font-family: 'Roboto';
+  font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: ${props => 15 * props.theme.scaleFactor}px;
 `
 const SubHeader = styled.p`

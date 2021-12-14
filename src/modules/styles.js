@@ -3,10 +3,17 @@ import styled from 'styled-components'
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => props.theme.scaleFactor * (props.mb || 14)}px;
+  margin-bottom: ${props => props.theme.scaleFactor * (props.mb || 28)}px;
 `
+
+export const Label = styled.div`
+  font-size: ${props => props.theme.scaleFactor *14}px;
+  font-weight: 500;
+`
+
 export const Period = styled.div`
   display: flex;
+  font-weight: 500;
   align-items: center;
   font-size: ${props => props.theme.scaleFactor * 14}px;
 `
@@ -15,7 +22,6 @@ export const Title = styled.div`
   margin-top: ${props => props.theme.scaleFactor * 8}px;
   margin-bottom: ${props => props.theme.scaleFactor * 2}px;
   flex: 1;
-  font-weight: 500;
   font-size: ${props => props.theme.scaleFactor * 14}px;
 `
 

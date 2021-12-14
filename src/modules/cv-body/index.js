@@ -15,6 +15,7 @@ const Body = styled.div`
   display: flex;
   justify-content: space-evenly;
   margin: 0 ${props => 20*props.theme.scaleFactor}px;
+  margin-top: ${props => 20*props.theme.scaleFactor}px;
 `
 
 const Column = styled.div`
@@ -159,7 +160,7 @@ export default () => {
       </Column>
       <Column>
         <SectionTitle>
-          SIDE PROJECTS
+          PROJECTS
         </SectionTitle>
 
         {data.side_projects.edges.sort((a, b) => a.order < b.order).map( project => {
@@ -180,7 +181,6 @@ export default () => {
           <LanguageCard
             key={language}
             language={language}
-            image={image.childImageSharp.fixed.src}
             level={level} />)
           })}
 
