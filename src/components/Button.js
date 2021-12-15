@@ -7,7 +7,7 @@ const ButtonBase = styled.button`
   padding: 12px;
   background-color: #000;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   box-shadow: none;
   text-align: center;
   display: inline-block;

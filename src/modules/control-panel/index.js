@@ -27,7 +27,7 @@ const ControlPanel = (props) => {
   return (
     <ControlPanelBase>
       <ReactToPrint
-          trigger={()=> <Button onClick={props.downloadPDF}> Export To Pdf</Button>}
+          trigger={()=> <Button onClick={props.downloadPDF}> EXPORT TO PDF</Button>}
           content={()=>props.getPrintableComponentRef().current}
           onBeforeGetContent={props.onBeforeGetContent}
         />
