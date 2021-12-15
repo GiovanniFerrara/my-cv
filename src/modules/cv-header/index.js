@@ -27,16 +27,19 @@ const SubHeader = styled.p`
 `
 
 const Presentation = styled.div`
+  position: absolute;
   display: flex;
   text-align: center;
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  left: 0;
+  right: 0;
+  padding-top: ${props => 30 * props.theme.scaleFactor}px;
 `
 const ImgWrapper = styled.div`
-  margin: ${props => 10 * props.theme.scaleFactor}px 0;;
+  margin: ${props => 10 * props.theme.scaleFactor}px 0;
 `
 
 export default () => {
@@ -60,7 +63,7 @@ export default () => {
   return (
     <Header>
       <ImgWrapper>
-        <Image imageSize={80} image={data.info.frontmatter.image.data.fixed.src} />
+        <Image imageSize={120} image={data.info.frontmatter.image.data.fixed.src} />
       </ImgWrapper>
       <Flex jc='space-between' ai='center'>
         <Presentation>

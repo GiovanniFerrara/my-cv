@@ -8,7 +8,7 @@ type: job
 ---
 
 - Developing web apps, websites and more.
-- Example of works delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/). 
+- Projects successfully delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/). 
 
-Websites developed:
+- Websites developed:
 [deliadrin.art](https://deliadrin.art), [ineedanicewebsite](https://www.ineedanicewebsite.com/), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/), [www.circuitonutrizione.it](http://www.circuitonutrizione.it/).
