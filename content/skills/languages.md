@@ -1,9 +1,8 @@
 ---
-title: Languages and Programming paradigms
+title: Languages
 type: skill
 order: 1
 ---
 
 - JavaScript
 - Typescript
-- Python (basics)

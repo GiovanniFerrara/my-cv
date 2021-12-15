@@ -1,10 +1,9 @@
 ---
-title: Dev Tools
+title: Others
 type: skill
 order: 4
 ---
 
-- Docker
-- AWS
 - Git/Github
 - CI/CD
+- Docker

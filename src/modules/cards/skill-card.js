@@ -9,7 +9,7 @@ const List = styled.div`
     border: 1px solid #000;
     padding: ${props => props.theme.scaleFactor * 4}px ${props => props.theme.scaleFactor * 8}px;
     margin-right: ${props => props.theme.scaleFactor * 5}px;
-    margin-top: ${props => props.theme.scaleFactor * 5}px;
+    margin-top: ${props => props.theme.scaleFactor * 8}px;
     line-height: normal;
     font-size: ${props => props.theme.scaleFactor * 12}px;
   }

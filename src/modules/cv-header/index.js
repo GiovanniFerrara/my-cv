@@ -3,20 +3,22 @@ import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
 import Image from '../../components/ImageWithLabel'
 import bgSrc from '../../assets/bg.png'
+import HeaderBottom from './header-bottom.js'
 import { Flex } from '../styles'
 
 const Header = styled.div`
   display: flex;
-  height: ${props => props.theme.scaleFactor * 100}px;
+  flex-direction: column;
+  height: ${props => props.theme.scaleFactor * 180}px;
   background-image: url("${bgSrc}");
   background-position: center;
   background-size: cover;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 `
 
 const Title = styled.h1`
   font-size: ${props => 40 * props.theme.scaleFactor}px;
-  font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: ${props => 15 * props.theme.scaleFactor}px;
 `
 const SubHeader = styled.p`
@@ -29,7 +31,7 @@ const Presentation = styled.div`
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   height: 100%;
 `
@@ -70,6 +72,7 @@ export default () => {
           </SubHeader>
         </Presentation>
       </Flex>
+      <HeaderBottom />
     </Header>
   )
 }

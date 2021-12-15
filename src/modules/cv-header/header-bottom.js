@@ -1,26 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
-import moment from 'moment'
 import githubSrc from '../../assets/github.png'
 import linkedinSrc from '../../assets/linkedin.png'
-import bgSrc from '../../assets/bg.png'
 import { Flex } from '../styles'
 
-const Footer = styled.div`
+const SubHeader = styled.div`
   display: flex;
   font-size: ${props => props.theme.scaleFactor * 12}px;
   width: 100%;
-  position: absolute;
   justify-content: space-between;
-  background: #99f;
   align-items: center;
   bottom: 0;
   height: ${props => props.theme.scaleFactor * 60}px;
   font-weight: 500;
-  background-image: url("${bgSrc}");
-  background-position: center;
-  background-size: cover;
 `
 
 const Column = styled.div`
@@ -43,7 +36,6 @@ export default () => {
   {
     info: markdownRemark(frontmatter: {type: {eq: "personal_info"}}){
         frontmatter{
-          birthdate
           phone
           email
           address
@@ -55,23 +47,22 @@ export default () => {
   }
   
   `)
-  const {birthdate, phone, email, address, github, linkedin, birth_country} = data.info.frontmatter
+  const { phone, email, address, github, linkedin } = data.info.frontmatter
   return (
-    <Footer>
+    <SubHeader>
       <Flex mx={32}>
-        {moment(birthdate).format('DD/MM/YYYY')}, {birth_country}
+        <Column>
+          <Flex>
+            {phone}
+          </Flex>
+          <Flex my={4}>
+            {email}
+          </Flex>
+          <Flex>
+            {address}
+          </Flex>
+        </Column>
       </Flex>
-      <Column>
-        <Flex>
-          {phone}
-        </Flex>
-        <Flex my={4}>
-          {email}
-        </Flex>
-        <Flex>
-          {address}
-        </Flex>
-      </Column>
       <Column>
         <Flex mx={32} jc='flex-end'>
           <Link href={github} target='blank'>
@@ -82,6 +73,6 @@ export default () => {
           </Link>
         </Flex>
       </Column>
-    </Footer>
+    </SubHeader>
   )
 }

@@ -7,7 +7,7 @@ import SEO from '../components/Seo'
 import ControlPanel from './control-panel'
 import { ZOOM_TYPE, ZOOM_STEP, INIT_SCALE_FACTOR, ZOOM_BOUNDS } from '../config'
 import Header from './cv-header'
-import Footer from './cv-footer'
+import SubHeader from './cv-sub-header'
 import Body from './cv-body'
 
 export default () => {
@@ -39,7 +39,6 @@ export default () => {
         <A4 scaleFactor={scaleFactor} A4ref={A4ref}>
           <Header />
           <Body />
-          <Footer />
         </A4>
     </Layout>
     </ThemeProvider>

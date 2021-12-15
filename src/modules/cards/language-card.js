@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Label as LabelBase } from '../styles'
 
 export default ({level, language}) => {
   const LanguageCard = styled.span`
@@ -10,6 +9,6 @@ export default ({level, language}) => {
   `
 
   return (
-      <LanguageCard>{language} - {level}, </LanguageCard>
+    <LanguageCard>{language} - {level}, </LanguageCard>
   )
 }
