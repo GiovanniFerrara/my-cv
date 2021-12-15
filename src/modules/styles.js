@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: ${props => props.theme.scaleFactor * (props.mb || 28)}px;
+  margin-bottom: ${props => props.theme.scaleFactor * (props.mb || 24)}px;
 `
 
 export const Label = styled.div`

@@ -68,7 +68,7 @@ export default () => {
           }
         }
       }
-      side_projects: allMarkdownRemark(filter: {frontmatter: {type: {eq: "side_project"}}}) {
+      side_projects: allMarkdownRemark(filter: {frontmatter: {type: {eq: "side_project"}}}, sort: {order:ASC, fields:frontmatter___order}) {
         edges {
           node {
             description: html
@@ -164,7 +164,7 @@ export default () => {
         </SectionTitle>
         <ProjectsWrapper>
           <ul>
-          {data.side_projects.edges.sort((a, b) => a.order < b.order).map(project => {
+          {data.side_projects.edges.map(project => {
             return (
               <ProjectCard
               key={project.node.frontmatter.title}

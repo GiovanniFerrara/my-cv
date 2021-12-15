@@ -7,5 +7,8 @@ image: ./nasc.png
 type: job
 ---
 
-- Developing full stack apps.
-- Example of works delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/), website with blog and related CSM [www.circuitonutrizione.it](http://www.circuitonutrizione.it/), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/) UIs with the Jam Stack and Contentful.
+- Developing web apps, websites and more.
+- Example of works delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/). 
+
+Websites developed:
+[deliadrin.art](https://deliadrin.art), [ineedanicewebsite](https://www.ineedanicewebsite.com/), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/), [www.circuitonutrizione.it](http://www.circuitonutrizione.it/).
