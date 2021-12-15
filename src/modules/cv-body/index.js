@@ -10,12 +10,12 @@ import ProjectCard from '../cards/project-card'
 import LanguageCard from '../cards/language-card'
 import SkillCard from '../cards/skill-card'
 import InterestCard from '../cards/interest-card'
+import { ProjectsWrapper } from '../styles'
 
 const Body = styled.div`
   display: flex;
   justify-content: space-evenly;
   margin: 0 ${props => 20*props.theme.scaleFactor}px;
-  margin-top: ${props => 20*props.theme.scaleFactor}px;
 `
 
 const Column = styled.div`
@@ -160,28 +160,33 @@ export default () => {
       </Column>
       <Column>
         <SectionTitle>
-          PROJECTS
+          OTHER PROJECTS
         </SectionTitle>
-
-        {data.side_projects.edges.sort((a, b) => a.order < b.order).map( project => {
-          return (
-          <ProjectCard
-            key={project.node.frontmatter.title}
-            title={project.node.frontmatter.title}
-            description={project.node.description} />)
-          })}
-
+        <ProjectsWrapper>
+          <ul>
+          {data.side_projects.edges.sort((a, b) => a.order < b.order).map(project => {
+            return (
+              <ProjectCard
+              key={project.node.frontmatter.title}
+              title={project.node.frontmatter.title}
+              description={project.node.description} />)
+            })}
+            </ul>
+        </ProjectsWrapper>
         <SectionTitle>
           LANGUAGES
         </SectionTitle>
-        {data.languages.edges.map( lang => {
-          const { image, level, language } = lang.node.frontmatter
+        {data.languages.edges.map((lang, i) => {
+          const { level, language } = lang.node.frontmatter
 
           return (
           <LanguageCard
             key={language}
             language={language}
-            level={level} />)
+            level={level}
+            lastItem={data.languages.edges.length === (i+1)}
+              />
+            )
           })}
 
         <SectionTitle>

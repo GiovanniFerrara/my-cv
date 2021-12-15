@@ -3,7 +3,7 @@ import { Card, Title, Description } from '../styles'
 
 export default ({title, description }) => {
   return (
-    <Card mb={10}>
+    <Card mb={'0'}>
       <Title>
         {title}
       </Title>

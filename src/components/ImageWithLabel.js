@@ -17,7 +17,6 @@ const Image = styled.img`
 const RoundShape = styled.div`
   width: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
   height: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
-  margin-right: 8px;
 `
 
 export default ({image, imageSize, text}) => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default ({level, language}) => {
+export default ({level, language, lastItem}) => {
   const LanguageCard = styled.span`
     font-weight: 400;
     padding-right: ${props => props.theme.scaleFactor * 4}px;;
@@ -9,6 +9,6 @@ export default ({level, language}) => {
   `
 
   return (
-    <LanguageCard>{language} - {level}, </LanguageCard>
+    <LanguageCard>{language} - {level}{`${lastItem ? '.' : ','}`} </LanguageCard>
   )
 }

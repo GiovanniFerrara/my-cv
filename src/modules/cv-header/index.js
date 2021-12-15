@@ -9,12 +9,12 @@ import { Flex } from '../styles'
 const Header = styled.div`
   display: flex;
   flex-direction: column;
-  height: ${props => props.theme.scaleFactor * 180}px;
+  height: ${props => props.theme.scaleFactor * 230}px;
   background-image: url("${bgSrc}");
   background-position: center;
   background-size: cover;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 `
 
 const Title = styled.h1`
@@ -24,19 +24,19 @@ const Title = styled.h1`
 const SubHeader = styled.p`
   font-size: ${props => 17 * props.theme.scaleFactor}px;
   font-family: 'Quicksand', sans-serif;
-  padding-left: ${props => 4 * props.theme.scaleFactor}px;
 `
 
 const Presentation = styled.div`
   display: flex;
+  text-align: center;
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
 `
 const ImgWrapper = styled.div`
-  margin: 0 ${props => 36 * props.theme.scaleFactor}px;;
+  margin: ${props => 10 * props.theme.scaleFactor}px 0;;
 `
 
 export default () => {
@@ -59,10 +59,10 @@ export default () => {
 
   return (
     <Header>
+      <ImgWrapper>
+        <Image imageSize={80} image={data.info.frontmatter.image.data.fixed.src} />
+      </ImgWrapper>
       <Flex jc='space-between' ai='center'>
-        <ImgWrapper>
-          <Image imageSize={80} image={data.info.frontmatter.image.data.fixed.src} />
-        </ImgWrapper>
         <Presentation>
           <Title>
             {data.info.frontmatter.name}
