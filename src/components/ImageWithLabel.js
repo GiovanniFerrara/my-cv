@@ -19,13 +19,13 @@ const RoundShape = styled.div`
   height: ${props => props.theme.scaleFactor * (props.imageSize || 32)}px;
 `
 
-export default ({image, imageSize, text}) => {
+export default ({image, imageSize, text, labelProps}) => {
   return (
     <ImageWithLabel>
       <RoundShape imageSize={imageSize}>
         <Image src={image} />
       </RoundShape>
-      {text && <Label>{text}</Label>}
+      {text && <Label {...labelProps}>{text}</Label>}
     </ImageWithLabel>
   )
 }

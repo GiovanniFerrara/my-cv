@@ -18,3 +18,19 @@ p {
 div[role="group"][tabindex] {
   height: 100%;
 }
+
+a:link {
+  color: #484848;
+}
+
+a:visited {
+  color: #484848;
+}
+
+a:hover {
+  color: #000
+}
+
+a:active {
+  color: #484848;
+}

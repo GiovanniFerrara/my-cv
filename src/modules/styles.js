@@ -9,12 +9,12 @@ export const Card = styled.div`
 export const Label = styled.div`
   font-size: ${props => props.theme.scaleFactor *14}px;
   padding-left: ${props => props.theme.scaleFactor *8}px;;
-  font-weight: 500;
+  font-weight: ${props => props.fontWeight ? props.fontWeight : 500};
 `
 
 export const Period = styled.div`
   display: flex;
-  font-weight: 500;
+  font-weight: 700;
   align-items: center;
   font-size: ${props => props.theme.scaleFactor * 14}px;
 `

@@ -8,7 +8,7 @@ export default ({image, companyName, startPeriod, endPeriod, description, title 
   return (
     <Card>
       <Row>
-       <ImageWithLabel text={companyName} image={image} />
+       <ImageWithLabel text={companyName} image={image} labelProps={{fontWeight: 700}} />
         <Period>
           {getPeriod(startPeriod, endPeriod)}
         </Period>
