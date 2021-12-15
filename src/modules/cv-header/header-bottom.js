@@ -7,6 +7,7 @@ import { Flex } from '../styles'
 
 const SubHeader = styled.div`
   display: flex;
+  z-index: 20;
   font-size: ${props => props.theme.scaleFactor * 12}px;
   width: 100%;
   justify-content: space-between;
