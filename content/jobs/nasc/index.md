@@ -11,4 +11,4 @@ type: job
 - Projects successfully delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/). 
 
 - Websites developed:
-[deliadrin.art](https://deliadrin.art), [ineedanicewebsite](https://www.ineedanicewebsite.com/), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/), [www.circuitonutrizione.it](http://www.circuitonutrizione.it/).
+[deliadrin.art](https://deliadrin.art), [annahora.com](https://annahora.netlify.app), [sisterhoodnadsun.com](https://sisterhoodandsun.com/pl/), [www.circuitonutrizione.it](http://www.circuitonutrizione.it/).

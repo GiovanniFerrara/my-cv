@@ -48,13 +48,7 @@ export default () => {
         frontmatter{
           subheader
           name
-          image {
-            data: childImageSharp{
-              fixed(width: 300, height: 300){
-                src
-              }
-            }
-          }
+          image
         }
       }
   }
@@ -63,7 +57,7 @@ export default () => {
   return (
     <Header>
       <ImgWrapper>
-        <Image imageSize={120} image={data.info.frontmatter.image.data.fixed.src} />
+        <Image imageSize={120} image={data.info.frontmatter.image} />
       </ImgWrapper>
       <Flex jc='space-between' ai='center'>
         <Presentation>

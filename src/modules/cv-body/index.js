@@ -36,13 +36,7 @@ export default () => {
               startPeriod
               endPeriod
               companyName
-              image {
-                childImageSharp{
-                  fixed{
-                    src
-                  }
-                }
-              }
+              image
             }
           }
         }
@@ -57,13 +51,7 @@ export default () => {
               startPeriod
               endPeriod
               university
-              image {
-                childImageSharp{
-                  fixed{
-                    src
-                  }
-                }
-              }
+              image
             }
           }
         }
@@ -85,13 +73,7 @@ export default () => {
             frontmatter{
               language
               level
-              image {
-                childImageSharp{
-                  fixed{
-                    src
-                  }
-                }
-              }
+              image
             }
           }
         }
@@ -133,7 +115,7 @@ export default () => {
           return (
           <JobCard
             key={companyName}
-            image={image.childImageSharp.fixed.src}
+            image={image}
             companyName={companyName}
             startPeriod={startPeriod}
             endPeriod={endPeriod}
@@ -150,7 +132,7 @@ export default () => {
           return (
           <EducationCard
             key={university}
-            image={image.childImageSharp.fixed.src}
+            image={image}
             university={university}
             startPeriod={startPeriod}
             endPeriod={endPeriod}

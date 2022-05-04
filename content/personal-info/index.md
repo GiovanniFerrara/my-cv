@@ -1,6 +1,6 @@
 ---
 name: GIOVANNI FERRARA
-subheader: "Full Stack Software Engineer"
+subheader: "Senior Software Engineer"
 
 birthdate: 1989-03-17
 phone: +48 796 798 591

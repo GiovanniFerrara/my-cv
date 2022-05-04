@@ -1,6 +1,6 @@
 ---
 companyName: Sportradar
-title: Software Engineer
+title: Senior Software Engineer
 startPeriod: 2021-05-01
 endPeriod: current
 image: ./sportradar.jpg
