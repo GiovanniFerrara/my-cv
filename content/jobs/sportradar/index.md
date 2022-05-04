@@ -1,8 +1,8 @@
 ---
 companyName: Sportradar
 title: Software Engineer
-startPeriod: 2019-04-10
-endPeriod: current
+startPeriod: 2019-04-01
+endPeriod: 2020-05-01
 image: ./sportradar.jpg
 type: job
 ---

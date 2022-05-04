@@ -9,7 +9,6 @@ import EducationCard from '../cards/education-card'
 import ProjectCard from '../cards/project-card'
 import LanguageCard from '../cards/language-card'
 import SkillCard from '../cards/skill-card'
-import InterestCard from '../cards/interest-card'
 import { ProjectsWrapper } from '../styles'
 
 const Body = styled.div`
@@ -123,22 +122,6 @@ export default () => {
             description={job.node.description} />)
         })}
 
-        <SectionTitle>
-          EDUCATION
-        </SectionTitle>
-        {data.educations.edges.map( education => {
-          const {image, university, startPeriod, endPeriod, title} = education.node.frontmatter
-
-          return (
-          <EducationCard
-            key={university}
-            image={image}
-            university={university}
-            startPeriod={startPeriod}
-            endPeriod={endPeriod}
-            title={title}
-            description={education.node.description} />)
-        })}
       </Column>
       <Column>
         <SectionTitle>
@@ -182,18 +165,22 @@ export default () => {
               title={skill.node.frontmatter.title}
               list={skill.node.list} />)
         } )}
-
         <SectionTitle>
-          INTERESTS
-        </SectionTitle>
-        {data.interests.edges.map( interest => {
+        EDUCATION
+      </SectionTitle>
+      {data.educations.edges.map( education => {
+        const {image, university, startPeriod, endPeriod, title} = education.node.frontmatter
 
         return (
-          <InterestCard
-            key={interest.node.frontmatter.title}
-            title={interest.node.frontmatter.title}
-            list={interest.node.list} />)
-        } )}
+        <EducationCard
+          key={university}
+          image={image}
+          university={university}
+          startPeriod={startPeriod}
+          endPeriod={endPeriod}
+          title={title}
+          description={education.node.description} />)
+      })}
       </Column>
     </Body>
   )
