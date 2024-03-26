@@ -28,6 +28,7 @@ const fetchFiles = (dirPath) => {
   return filesJson;
 };
 
+function run () {
 const dirPath = 'content';
 const jsonResults = {};
 fs.readdirSync(dirPath).forEach(file => {
@@ -38,3 +39,7 @@ fs.readdirSync(dirPath).forEach(file => {
 });
 
 fs.writeFileSync(path.join('src', 'data.json'), JSON.stringify(jsonResults, null, 2));
+console.log('Data updated!');
+}
+
+run();
