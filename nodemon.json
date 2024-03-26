@@ -1,0 +1,6 @@
+{
+  "watch": ["content"],
+  "ext": "js,json,html,css",
+  "exec": "npm run update-data",
+  "verbose": true
+}

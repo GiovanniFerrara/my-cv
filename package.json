@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "update-data": "node scripts/updateData.js",
-    "watch-content": "nodemon --watch content --exec 'npm run update-data'"
+    "watch-content": "nodemon"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
