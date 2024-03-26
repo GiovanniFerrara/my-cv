@@ -20,7 +20,13 @@ const SkillCard = ({ title, list }) => {
   return (
     <Card mb={4}>
       <Title>{title}</Title>
-      <List dangerouslySetInnerHTML={{ __html: list }} />
+      <List>
+        <ul>
+          {list.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </List>
     </Card>
   );
 };

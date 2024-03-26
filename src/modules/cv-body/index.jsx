@@ -84,7 +84,7 @@ const CvBody = () => {
             <SkillCard
               key={skill.title}
               title={skill.title}
-              list={skill.list}
+              list={skill.description}
             />
           );
         })}

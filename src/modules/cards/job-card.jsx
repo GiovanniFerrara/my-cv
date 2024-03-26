@@ -23,7 +23,11 @@ const JobCard = ({
         <Period>{getPeriod(startPeriod, endPeriod)}</Period>
       </Row>
       <Title>{title}</Title>
-      <Description dangerouslySetInnerHTML={{ __html: description }} />
+      <Description> <ul>
+        {description.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul></Description>
     </Card>
   );
 };

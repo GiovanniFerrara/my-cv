@@ -20,7 +20,6 @@ const RoundShape = styled.div`
 `;
 
 const ImageWithLabel = ({ image, imageSize, text, labelProps }) => {
-  console.log({image})
   return (
     <ImageWithLabelStyled>
       <RoundShape imageSize={imageSize}>

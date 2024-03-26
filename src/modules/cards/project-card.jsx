@@ -5,7 +5,13 @@ const ProjectCard = ({ title, description }) => {
   return (
     <Card mb={"0"}>
       <Title>{title}</Title>
-      <Description dangerouslySetInnerHTML={{ __html: description }} />
+      <Description>
+        <ul>
+          {description.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </Description>
     </Card>
   );
 };
