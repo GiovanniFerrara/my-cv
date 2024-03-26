@@ -22,7 +22,9 @@ const Column = styled.div`
   margin: 0 ${(props) => 20 * props.theme.scaleFactor}px;
 `;
 
-const jobs = data["jobs"]|| []
+const jobs = (data["jobs"]|| []).sort((a, b) => {
+  return new Date(b.startPeriod).getTime() - new Date(a.startPeriod).getTime();
+})
 const educations = data["education"]|| []
 const projects = data["projects"]|| []
 const languages = data["languages"]|| []

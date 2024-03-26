@@ -28,7 +28,7 @@ const fetchFiles = (dirPath) => {
   return filesJson;
 };
 
-const dirPath = 'src/content';
+const dirPath = 'content';
 const jsonResults = {};
 fs.readdirSync(dirPath).forEach(file => {
   const fullPath = path.join(dirPath, file);

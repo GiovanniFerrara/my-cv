@@ -1,6 +1,6 @@
 ---
 companyName: Jurny
-title: Frontend team leader
+title: Frontend team leaderere
 startPeriod: 2022-02-01
 endPeriod: current
 image: ./jurny.png
