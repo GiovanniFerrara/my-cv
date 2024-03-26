@@ -1,8 +1,21 @@
-# React + Vite
+# Giovanni Marco Ferrara's CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dynamic CV for Giovanni Marco Ferrara, a Senior Software Engineer. It's built with JavaScript, React, and Gatsby, and uses npm and yarn for package management.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project uses markdown files to dynamically add new items like languages, projects, job experiences, etc. These files are located in the `content/` directory. The main entry point of the application is `src/modules/cv.js`.
+
+## Running the Project
+
+To run this project, you need to have Node.js and npm/yarn installed. Then, you can install the dependencies and start the development server:
+
+```sh
+# with npm
+npm install
+npm start
+
+# or with yarn
+yarn install
+yarn start
+```
