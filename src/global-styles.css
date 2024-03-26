@@ -1,0 +1,32 @@
+html,
+body,
+body {
+  margin: 0px;
+  background: #484848;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+div[role="group"][tabindex] {
+  height: 100%;
+}
+
+a:link {
+  color: #484848;
+}
+
+a:visited {
+  color: #484848;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:active {
+  color: #484848;
+}
