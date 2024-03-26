@@ -13,7 +13,7 @@ const EducationCard = ({
   description,
   title,
 }) => {
-  // Add display name
+
   return (
     <Card>
       <Row>

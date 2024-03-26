@@ -5,14 +5,14 @@ import matter from 'gray-matter';
 const mdToJson = (filePath) => {
   const mdContent = fs.readFileSync(filePath, 'utf8');
   const parsedContent = matter(mdContent);
-  const tasks = parsedContent.content
+  const description = parsedContent.content
     .split('\n')
     .filter(line => line.startsWith('-'))
     .map(item => item.slice(1).trim());
 
   return {
     ...parsedContent.data,
-    tasks,
+    description,
   };
 };
 const fetchFiles = (dirPath) => {

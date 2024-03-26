@@ -8,6 +8,7 @@ import ProjectCard from "../cards/project-card";
 import LanguageCard from "../cards/language-card";
 import SkillCard from "../cards/skill-card";
 import { ProjectsWrapper } from "../styles";
+import data from "../../data.json";
 
 const Body = styled.div`
   display: flex;
@@ -21,18 +22,18 @@ const Column = styled.div`
   margin: 0 ${(props) => 20 * props.theme.scaleFactor}px;
 `;
 
-const jobs = [];
-const educations = [];
-const side_projects = [];
-const languages = [];
-const skills = [];
+const jobs = data["jobs"]|| []
+const educations = data["education"]|| []
+const projects = data["projects"]|| []
+const languages = data["languages"]|| []
+const skills = data["skills"]|| []
 
 const CvBody = () => {
   return (
     <Body>
       <Column>
         <SectionTitle>WORK EXPERIENCE</SectionTitle>
-        {jobs.map((job) => {
+        {jobs?.map((job) => {
           const { image, companyName, startPeriod, endPeriod, title } = job;
 
           return (
@@ -43,7 +44,7 @@ const CvBody = () => {
               startPeriod={startPeriod}
               endPeriod={endPeriod}
               title={title}
-              description={job.node.description}
+              description={job.description}
             />
           );
         })}
@@ -52,19 +53,19 @@ const CvBody = () => {
         <SectionTitle>OTHER PROJECTS</SectionTitle>
         <ProjectsWrapper>
           <ul>
-            {side_projects.map((project) => {
+            {projects?.map((project) => {
               return (
                 <ProjectCard
                   key={project.title}
                   title={project.title}
-                  description={project.node.description}
+                  description={project.description}
                 />
               );
             })}
           </ul>
         </ProjectsWrapper>
         <SectionTitle>LANGUAGES</SectionTitle>
-        {languages.map((lang, i) => {
+        {languages?.map((lang, i) => {
           const { level, language } = lang;
 
           return (
@@ -78,17 +79,17 @@ const CvBody = () => {
         })}
 
         <SectionTitle>TECHNICAL SKILLS</SectionTitle>
-        {skills.map((skill) => {
+        {skills?.map((skill) => {
           return (
             <SkillCard
               key={skill.title}
               title={skill.title}
-              list={skill.node.list}
+              list={skill.list}
             />
           );
         })}
         <SectionTitle>EDUCATION</SectionTitle>
-        {educations.map((education) => {
+        {educations?.map((education) => {
           const { image, university, startPeriod, endPeriod, title } =
             education;
 
@@ -100,7 +101,7 @@ const CvBody = () => {
               startPeriod={startPeriod}
               endPeriod={endPeriod}
               title={title}
-              description={education.node.description}
+              description={education.description}
             />
           );
         })}

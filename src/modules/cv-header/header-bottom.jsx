@@ -2,6 +2,7 @@ import styled from "styled-components";
 import githubSrc from "../../assets/github.png";
 import linkedinSrc from "../../assets/linkedin.png";
 import { Flex } from "../styles";
+import data from "../../data.json";
 
 const SubHeader = styled.div`
   display: flex;
@@ -30,25 +31,24 @@ const Link = styled.a`
   margin-left: ${(props) => props.theme.scaleFactor * 8}px;
 `;
 
+const personalInfo = data["personal-info"][0];
+
 export default function HeaderBottom() {
   return (
     <SubHeader>
       <Flex mx={32}>
         <Column>
-          <Flex>+48 796 798 591</Flex>
-          <Flex my={4}>gianmarco.ferrara@gmail.com</Flex>
-          <Flex>Lisbon, Portugal</Flex>
+          <Flex>{personalInfo.phone}</Flex>
+          <Flex my={4}>{personalInfo.email}</Flex>
+          <Flex>{personalInfo.address}</Flex>
         </Column>
       </Flex>
       <Column>
         <Flex mx={32} jc="flex-end">
-          <Link href="https://www.github.com/GiovanniFerrara/" target="blank">
+          <Link href={personalInfo.github} target="blank">
             <Image src={githubSrc} />
           </Link>
-          <Link
-            href="https://www.linkedin.com/in/giovanni-marco-ferrara/"
-            target="blank"
-          >
+          <Link href={personalInfo.linkedin} target="blank">
             <Image src={linkedinSrc} />
           </Link>
         </Flex>

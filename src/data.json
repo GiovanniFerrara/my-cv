@@ -7,13 +7,13 @@
       "endPeriod": "2015-10-01T00:00:00.000Z",
       "image": "./unipa.jpg",
       "type": "education",
-      "tasks": []
+      "description": []
     }
   ],
   "interests": [
     {
       "type": "interest",
-      "tasks": [
+      "description": [
         "Playing music",
         "baking",
         "brewing beer and wine",
@@ -31,7 +31,7 @@
       "endPeriod": "2021-05-01T00:00:00.000Z",
       "image": "./ergo.png",
       "type": "job",
-      "tasks": [
+      "description": [
         "Integrating new modules to the existing application: e.g. adding a encryption-decryption service and performed a restyling of the UI. Created a statistics dashboard with Typescript/React from scratch."
       ]
     },
@@ -42,7 +42,7 @@
       "endPeriod": "2019-03-10T00:00:00.000Z",
       "image": "./esb.jpeg",
       "type": "job",
-      "tasks": [
+      "description": [
         "Working remotely building the backend in a web app that connects players of Battlefield V for competitive matches. Technologies: Node, Express, MongoDB."
       ]
     },
@@ -53,7 +53,7 @@
       "endPeriod": "current",
       "image": "./jurny.png",
       "type": "job",
-      "tasks": [
+      "description": [
         "Leading the Frontend team and setting up the architecture of the PMS choosing technologies and tools required for the specific UI requirements.",
         "Creator of Nia, the advanced AI system based on GPT-4 that helps the property owners to manage their properties. Helps to the users to understand the platform and reports to the helpdesk issues that can't be solved by the AI."
       ]
@@ -65,7 +65,7 @@
       "endPeriod": "current",
       "image": "./nasc.png",
       "type": "job",
-      "tasks": [
+      "description": [
         "Projects successfully delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/).",
         "Websites:"
       ]
@@ -77,7 +77,7 @@
       "endPeriod": "2020-05-01T00:00:00.000Z",
       "image": "./sportradar.jpg",
       "type": "job",
-      "tasks": [
+      "description": [
         "Creating a multi-sports data input platform, connecting machine learning generated data.",
         "Building UI with React, Redux, styled-components. AWS based infrastructure, composed my 40+ micro-services."
       ]
@@ -89,7 +89,7 @@
       "endPeriod": "2022-05-01T00:00:00.000Z",
       "image": "./sportradar.jpg",
       "type": "job",
-      "tasks": [
+      "description": [
         "Improved app performances by eliminating tech depth and replaced old code in order to use modern language features and libraries: React hooks, graphql with Apollo, react query and typescript."
       ]
     }
@@ -101,7 +101,7 @@
       "image": "./eng.png",
       "type": "language",
       "order": 1,
-      "tasks": []
+      "description": []
     },
     {
       "language": "Italian",
@@ -109,7 +109,7 @@
       "image": "./ita.png",
       "type": "language",
       "order": 2,
-      "tasks": []
+      "description": []
     },
     {
       "language": "Polish",
@@ -117,7 +117,7 @@
       "image": "./pl.png",
       "type": "language",
       "order": 3,
-      "tasks": []
+      "description": []
     }
   ],
   "personal-info": [
@@ -133,7 +133,7 @@
       "type": "personal_info",
       "birth_country": "Italy",
       "image": "./me.png",
-      "tasks": []
+      "description": []
     }
   ],
   "projects": [
@@ -141,7 +141,7 @@
       "title": "Allset widget",
       "type": "side_project",
       "order": 2,
-      "tasks": [
+      "description": [
         "An embeddable UI widget, built with React, that can easily be integrated to any website just by adding a script in the main html page that allows the users to perform payments for 3rd parties and more."
       ]
     },
@@ -149,7 +149,7 @@
       "title": "Bread-Plan",
       "type": "side_project",
       "order": 4,
-      "tasks": [
+      "description": [
         "[Open Source](https://github.com/GiovanniFerrara/bread-plan-backend) app to generate bread recipes for nerdy bakers."
       ]
     },
@@ -157,7 +157,7 @@
       "title": "My CV",
       "type": "side_project",
       "order": 3,
-      "tasks": [
+      "description": [
         "Just what you are reading right now, it makes use of markdown files to dynamically add new items like languages, projects, job experiences..."
       ]
     },
@@ -165,7 +165,7 @@
       "title": "react-debugger-hook",
       "type": "side_project",
       "order": 1,
-      "tasks": [
+      "description": [
         "[NPM package](https://www.npmjs.com/package/react-debugger-hook) designed for those who want to review a react project, being able to interact with things like: colors, styles, animations settings, run the app in different mode, and more..."
       ]
     }
@@ -175,7 +175,7 @@
       "title": "Backend Technologies",
       "type": "skill",
       "order": 3,
-      "tasks": [
+      "description": [
         "Node/Express",
         "MongoDB",
         "Postgres",
@@ -186,7 +186,7 @@
       "title": "Frontend Technologies",
       "type": "skill",
       "order": 2,
-      "tasks": [
+      "description": [
         "React",
         "Gatsby.js",
         "Next.js",
@@ -201,7 +201,7 @@
       "title": "Languages",
       "type": "skill",
       "order": 1,
-      "tasks": [
+      "description": [
         "JavaScript",
         "Typescript"
       ]
@@ -210,7 +210,7 @@
       "title": "Others",
       "type": "skill",
       "order": 4,
-      "tasks": [
+      "description": [
         "Git/Github",
         "CI/CD",
         "Docker",
