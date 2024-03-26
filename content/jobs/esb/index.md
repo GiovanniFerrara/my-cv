@@ -1,5 +1,5 @@
 ---
-companyName: Esport Battlefield Network
+companyName: Battlefield Network (Remote)
 title: Backend Developer
 startPeriod: 2018-07-10
 endPeriod: 2019-03-10

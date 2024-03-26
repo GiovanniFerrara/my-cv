@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Card, Title } from "../styles";
 import PropTypes from "prop-types";
-
+import {marked} from "marked";
 const List = styled.div`
   > ul > li {
     display: inline-block;
@@ -23,7 +23,7 @@ const SkillCard = ({ title, list }) => {
       <List>
         <ul>
           {list.map((item) => (
-            <li key={item}>{item}</li>
+            <li key={item} dangerouslySetInnerHTML={{__html: marked(item)}}></li>
           ))}
         </ul>
       </List>

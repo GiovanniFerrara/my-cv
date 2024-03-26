@@ -1,5 +1,5 @@
 ---
-companyName: Jurny
+companyName: Jurny (L.A. - remote)
 title: Frontend team leader
 startPeriod: 2022-02-01
 endPeriod: current

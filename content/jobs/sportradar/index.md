@@ -1,5 +1,5 @@
 ---
-companyName: Sportradar
+companyName: Sportradar (S.F. - remote)
 title: Software Engineer
 startPeriod: 2019-04-01
 endPeriod: 2020-05-01

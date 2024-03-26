@@ -1,5 +1,6 @@
 import { Card, Title, Description } from "../styles";
 import PropTypes from "prop-types";
+import {marked} from "marked";  
 
 const ProjectCard = ({ title, description }) => {
   return (
@@ -8,7 +9,7 @@ const ProjectCard = ({ title, description }) => {
       <Description>
         <ul>
           {description.map((item) => (
-            <li key={item}>{item}</li>
+            <li key={item} dangerouslySetInnerHTML={{__html: marked(item)}}></li>
           ))}
         </ul>
       </Description>

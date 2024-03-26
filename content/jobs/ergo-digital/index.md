@@ -1,5 +1,5 @@
 ---
-companyName: Ergo Digital It
+companyName: Ergo Digital It (Warsaw)
 title: Full Stack Software Engineer
 startPeriod: 2020-05-01
 endPeriod: 2021-05-01

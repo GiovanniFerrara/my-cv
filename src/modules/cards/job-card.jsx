@@ -3,6 +3,7 @@ import ImageWithLabel from "../../components/ImageWithLabel";
 import { Card, Period, Title, Description } from "../styles";
 import { getPeriod } from "../helpers";
 import PropTypes from "prop-types";
+import {marked} from "marked";
 
 const JobCard = ({
   image,
@@ -25,7 +26,7 @@ const JobCard = ({
       <Title>{title}</Title>
       <Description> <ul>
         {description.map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item} dangerouslySetInnerHTML={{__html: marked(item)}}></li>
         ))}
       </ul></Description>
     </Card>
