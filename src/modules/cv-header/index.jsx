@@ -3,7 +3,7 @@ import Image from "../../components/ImageWithLabel.jsx";
 import bgSrc from "../../assets/bg.png";
 import HeaderBottom from "./header-bottom.jsx";
 import { Flex } from "../styles.js";
-import data from "../../data.json";
+import data from "../../../compiled-data.json";
 
 const Header = styled.div`
   display: flex;

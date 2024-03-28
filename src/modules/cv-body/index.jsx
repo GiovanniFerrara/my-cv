@@ -8,7 +8,7 @@ import ProjectCard from "../cards/project-card";
 import LanguageCard from "../cards/language-card";
 import SkillCard from "../cards/skill-card";
 import { ProjectsWrapper } from "../styles";
-import data from "../../data.json";
+import data from "../../../compiled-data.json";
 
 const Body = styled.div`
   display: flex;

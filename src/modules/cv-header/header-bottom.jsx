@@ -2,7 +2,7 @@ import styled from "styled-components";
 import githubSrc from "../../assets/github.png";
 import linkedinSrc from "../../assets/linkedin.png";
 import { Flex } from "../styles";
-import data from "../../data.json";
+import data from "../../../compiled-data.json";
 
 const SubHeader = styled.div`
   display: flex;

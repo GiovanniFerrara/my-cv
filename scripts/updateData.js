@@ -38,7 +38,7 @@ fs.readdirSync(dirPath).forEach(file => {
   }
 });
 
-fs.writeFileSync('compiled-data.json'), JSON.stringify(jsonResults, null, 2);
+fs.writeFileSync('compiled-data.json', JSON.stringify(jsonResults, null, 2));
 console.log('Data updated!');
 }
 
