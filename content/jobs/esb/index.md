@@ -1,5 +1,5 @@
 ---
-companyName: Battlefield Network (Remote)
+companyName: Battlefield Network (remote)
 title: Backend Developer
 startPeriod: 2018-07-10
 endPeriod: 2019-03-10

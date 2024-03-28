@@ -14,12 +14,12 @@
     {
       "type": "interest",
       "description": [
-        "<p>Playing music</p>\n",
-        "<p>baking</p>\n",
-        "<p>brewing beer and wine</p>\n",
-        "<p>coffee specialty</p>\n",
-        "<p>languages</p>\n",
-        "<p>reading</p>\n"
+        "Playing music",
+        "baking",
+        "brewing beer and wine",
+        "coffee specialty",
+        "languages",
+        "reading"
       ]
     }
   ],
@@ -32,18 +32,18 @@
       "image": "./ergo.png",
       "type": "job",
       "description": [
-        "<p>Integrating new modules to the existing application: e.g. adding a encryption-decryption service and performed a restyling of the UI. Created a statistics dashboard with Typescript/React from scratch.</p>\n"
+        "Integrating new modules to the existing application: e.g. adding a encryption-decryption service and performed a restyling of the UI. Created a statistics dashboard with Typescript/React from scratch."
       ]
     },
     {
-      "companyName": "Battlefield Network (Remote)",
+      "companyName": "Battlefield Network (remote)",
       "title": "Backend Developer",
       "startPeriod": "2018-07-10T00:00:00.000Z",
       "endPeriod": "2019-03-10T00:00:00.000Z",
       "image": "./esb.jpeg",
       "type": "job",
       "description": [
-        "<p>Working remotely building the backend in a web app that connects players of Battlefield V for competitive matches. Technologies: Node, Express, MongoDB.</p>\n"
+        "Working remotely building the backend in a web app that connects players of Battlefield V for competitive matches. Technologies: Node, Express, MongoDB."
       ]
     },
     {
@@ -54,8 +54,8 @@
       "image": "./jurny.png",
       "type": "job",
       "description": [
-        "<p>Leading the Frontend team and setting up the architecture of the PMS choosing technologies and tools required for the specific UI requirements.</p>\n",
-        "<p>Creator of Nia, the advanced AI system based on GPT-4 that helps the property owners to manage their properties. Helps to the users to understand the platform and reports to the helpdesk issues that can&#39;t be solved by the AI.</p>\n"
+        "Leading the Frontend team and setting up the architecture of the PMS choosing technologies and tools required for the specific UI requirements.",
+        "Creator of Nia, the advanced AI system based on GPT-4 that helps the property owners to manage their properties. Helps to the users to understand the platform and reports to the helpdesk issues that can't be solved by the AI."
       ]
     },
     {
@@ -66,8 +66,8 @@
       "image": "./nasc.png",
       "type": "job",
       "description": [
-        "<p>Projects successfully delivered: Scheduling Widget for <a href=\"https://www.allsethq.com/\">AllSet</a>.</p>\n",
-        "<p>Websites:</p>\n"
+        "Projects successfully delivered: Scheduling Widget for [AllSet](https://www.allsethq.com/).",
+        "Websites:"
       ]
     },
     {
@@ -78,8 +78,8 @@
       "image": "./sportradar.jpg",
       "type": "job",
       "description": [
-        "<p>Creating a multi-sports data input platform, connecting machine learning generated data.</p>\n",
-        "<p>Building UI with React, Redux, styled-components. AWS based infrastructure, composed my 40+ micro-services.</p>\n"
+        "Creating a multi-sports data input platform, connecting machine learning generated data.",
+        "Building UI with React, Redux, styled-components. AWS based infrastructure, composed my 40+ micro-services."
       ]
     },
     {
@@ -90,7 +90,7 @@
       "image": "./sportradar.jpg",
       "type": "job",
       "description": [
-        "<p>Improved app performances by eliminating tech depth and replaced old code in order to use modern language features and libraries: React hooks, graphql with Apollo, react query and typescript.</p>\n"
+        "Improved app performances by eliminating tech depth and replaced old code in order to use modern language features and libraries: React hooks, graphql with Apollo, react query and typescript."
       ]
     }
   ],
@@ -142,7 +142,7 @@
       "type": "side_project",
       "order": 2,
       "description": [
-        "<p>An embeddable UI widget, built with React, that can easily be integrated to any website just by adding a script in the main html page that allows the users to perform payments for 3rd parties and more.</p>\n"
+        "An embeddable UI widget, built with React, that can easily be integrated to any website just by adding a script in the main html page that allows the users to perform payments for 3rd parties and more."
       ]
     },
     {
@@ -150,7 +150,7 @@
       "type": "side_project",
       "order": 4,
       "description": [
-        "<p><a href=\"https://github.com/GiovanniFerrara/bread-plan-backend\">Open Source</a> app to generate bread recipes for nerdy bakers.</p>\n"
+        "[Open Source](https://github.com/GiovanniFerrara/bread-plan-backend) app to generate bread recipes for nerdy bakers."
       ]
     },
     {
@@ -158,7 +158,7 @@
       "type": "side_project",
       "order": 3,
       "description": [
-        "<p>Just what you are reading right now, it makes use of markdown files to dynamically add new items like languages, projects, job experiences...</p>\n"
+        "Just what you are reading right now, it makes use of markdown files to dynamically add new items like languages, projects, job experiences..."
       ]
     },
     {
@@ -166,7 +166,7 @@
       "type": "side_project",
       "order": 1,
       "description": [
-        "<p><a href=\"https://www.npmjs.com/package/react-debugger-hook\">NPM package</a> designed for those who want to review a react project, being able to interact with things like: colors, styles, animations settings, run the app in different mode, and more...</p>\n"
+        "[NPM package](https://www.npmjs.com/package/react-debugger-hook) designed for those who want to review a react project, being able to interact with things like: colors, styles, animations settings, run the app in different mode, and more..."
       ]
     }
   ],
@@ -176,10 +176,10 @@
       "type": "skill",
       "order": 3,
       "description": [
-        "<p>Node/Express</p>\n",
-        "<p>MongoDB</p>\n",
-        "<p>Postgres</p>\n",
-        "<p>GraphQL/Apollo</p>\n"
+        "Node/Express",
+        "MongoDB",
+        "Postgres",
+        "GraphQL/Apollo"
       ]
     },
     {
@@ -187,14 +187,14 @@
       "type": "skill",
       "order": 2,
       "description": [
-        "<p>React</p>\n",
-        "<p>Gatsby.js</p>\n",
-        "<p>Next.js</p>\n",
-        "<p>Redux</p>\n",
-        "<p>Graphql/Apollo</p>\n",
-        "<p>Styled Components</p>\n",
-        "<p>React Testing Library</p>\n",
-        "<p>Jest</p>\n"
+        "React",
+        "Gatsby.js",
+        "Next.js",
+        "Redux",
+        "Graphql/Apollo",
+        "Styled Components",
+        "React Testing Library",
+        "Jest"
       ]
     },
     {
@@ -202,8 +202,8 @@
       "type": "skill",
       "order": 1,
       "description": [
-        "<p>JavaScript</p>\n",
-        "<p>Typescript</p>\n"
+        "JavaScript",
+        "Typescript"
       ]
     },
     {
@@ -211,10 +211,10 @@
       "type": "skill",
       "order": 4,
       "description": [
-        "<p>Git/Github</p>\n",
-        "<p>CI/CD</p>\n",
-        "<p>Docker</p>\n",
-        "<p>AWS</p>\n"
+        "Git/Github",
+        "CI/CD",
+        "Docker",
+        "AWS"
       ]
     }
   ]
