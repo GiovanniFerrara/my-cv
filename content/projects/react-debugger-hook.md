@@ -4,4 +4,4 @@ type: side_project
 order: 1
 ---
 
-- [NPM package](https://www.npmjs.com/package/react-debugger-hook) designed for those who want to review a react project, being able to interact with things like: colors, styles, animations settings, run the app in different mode, and more... 
+- [NPM package](https://www.npmjs.com/package/react-debugger-hook) is an NPM package that enables dynamic interaction with React component props, such as colors and styles, for on-the-fly testing and debugging. 

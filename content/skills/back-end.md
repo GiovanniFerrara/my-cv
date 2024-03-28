@@ -4,7 +4,10 @@ type: skill
 order: 3
 ---
 
-- Node/Express
-- MongoDB
-- Postgres
+- Nodejs
+- OpenAI services (expert)
+- Nest js
+- AI Prompt Engineering
+- Mongo DB
+- SQL databases
 - GraphQL/Apollo

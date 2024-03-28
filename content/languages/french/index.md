@@ -1,6 +1,6 @@
 ---
-language: Polish
+language: French
 level: basic
 type: language
-order: 4
+order: 3
 ---
