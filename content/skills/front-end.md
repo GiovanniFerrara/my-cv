@@ -5,10 +5,9 @@ order: 2
 ---
 
 - React
-- Gatsby.js
+- React Native
 - Next.js
-- Redux
+- Gatsby.js
 - Graphql/Apollo
-- Styled Components
 - React Testing Library
 - Jest
