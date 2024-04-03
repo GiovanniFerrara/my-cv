@@ -1,5 +1,5 @@
 ---
-name: GIOVANNI FERRARA
+name: GIAN MARCO FERRARA
 subheader: "Senior Software Engineer"
 
 birthdate: 1989-03-17
