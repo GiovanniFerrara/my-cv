@@ -8,4 +8,4 @@ type: job
 ---
 
 - Creating a multi-sports data input platform, connecting machine learning generated data.
-- Building UI with React, Redux, styled-components. AWS based infrastructure, composed my 40+ micro-services.
+- Building UI with React, Redux, styled-components. AWS based infrastructure, composed by 40+ micro-services.
