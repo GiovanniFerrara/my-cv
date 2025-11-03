@@ -1,6 +1,6 @@
 # Giovanni Marco Ferrara's CV
 
-This project is a dynamic CV for Giovanni Marco Ferrara, a Senior Software Engineer. It's built with JavaScript, React, and Gatsby, and uses npm and yarn for package management.
+This project is a dynamic CV for Giovanni Marco Ferrara, a Gen AI Software Engineer. It's built with JavaScript, React, and Gatsby, and uses npm and yarn for package management.
 
 ## Project Structure
 

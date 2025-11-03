@@ -1,13 +1,8 @@
 ---
-title: Frontend Technologies
+title: Frontend Stack
 type: skill
 order: 2
 ---
 
-- React
-- React Native
-- Next.js
-- Gatsby.js
-- Graphql/Apollo
+- React Ecosystem Expert
 - React Testing Library
-- Jest

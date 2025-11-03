@@ -5,4 +5,6 @@ order: 1
 ---
 
 - JavaScript
-- Typescript
+- TypeScript
+- Php - basics
+- Python - basics

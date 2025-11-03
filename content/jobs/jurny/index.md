@@ -7,5 +7,6 @@ image: ./jurny.png
 type: job
 ---
 
-- Designer of Nia, the advanced AI agents system based on GPT-4, putting together a futuristic/creative architecture that helps customers to fully handle their reservations. Leading a team of 4 developers.
-- Previously frontend lead of a team of 5 developers, setting up the architecture of the PMS choosing technologies and tools required for the specific UI requirements.
+- Architected Nia, a multi-agent platform powered by OpenAI and Claude models orchestrating reservation workflows end to end; now resolves ~80% of guest requests autonomously, cuts resolution time from hours to minutes, and I lead a squad of 4 engineers across AI and product.
+- Previously frontend lead for a team of 5 developers, defining the Frontend architecture with React/TypeScript and React Query.
+- Helping to implement an AI-first culture across product, ops, and support by codifying our practices in a internal AI knowledge base, auto-recording and analyzing meetings for action items, and turning "invisible" onboarding calls transcriptions into automations that keep humans focused on the highest-leverage work.

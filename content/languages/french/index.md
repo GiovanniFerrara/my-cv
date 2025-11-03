@@ -1,6 +1,6 @@
 ---
 language: French
-level: basic
+level: fluent
 type: language
 order: 3
 ---
