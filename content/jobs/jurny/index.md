@@ -7,6 +7,6 @@ image: ./jurny.png
 type: job
 ---
 
-- Architected Nia, a multi-agent platform powered by OpenAI and Claude models orchestrating reservation workflows end to end; now resolves ~80% of guest requests autonomously, cuts resolution time from hours to minutes, and I lead a squad of 4 engineers across AI and product.
-- Previously frontend lead for a team of 5 developers, defining the Frontend architecture with React/TypeScript and React Query.
-- Helping to implement an AI-first culture across product, ops, and support by codifying our practices in a internal AI knowledge base, auto-recording and analyzing meetings for action items, and turning "invisible" onboarding calls transcriptions into automations that keep humans focused on the highest-leverage work.
+- Architected Multi-Agent System (Nia): Built a sophisticated orchestration layer using LLMs to automate complex end-to-end reservation workflows. Impact: Achieved 77% autonomous resolution and slashed guest communication time by ~90%.
+- AI Operations & Automation: Developed RAG pipelines to analyze meetings and ingest onboarding calls into our internal knowledge base. Result: Created a data feedback loop where past support calls train the system, enabling the internal Helpdesk AI to resolve 92% of user questions autonomously.
+- Frontend Architecture: Previously led a team of 5 developers, establishing scalable React and TypeScript architecture to build the high-performance UI foundation required for AI-driven products.
