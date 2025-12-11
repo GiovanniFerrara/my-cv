@@ -6,4 +6,3 @@ order: 2
 
 - Sleek and intuitive React-based frontend mimicking ChatGPT, featuring real-time streaming responses and conversation management.
 - Responsive Material-UI design.
-- Includes conversation history management and integration with GPT streaming backend.
