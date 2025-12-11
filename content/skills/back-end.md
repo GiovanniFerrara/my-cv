@@ -6,7 +6,7 @@ order: 3
 - AI Agents Architecture
 - RAG Systems
 - LLMs prompt engineering
-- Vector databases (Weaviate)
+- Vector databases
 - Nest js
 - Nodejs
 - SQL databases

@@ -26,7 +26,7 @@ const jobs = (data["jobs"]|| []).sort((a, b) => {
   return new Date(b.startPeriod).getTime() - new Date(a.startPeriod).getTime();
 })
 const educations = data["education"]|| []
-const projects = data["projects"]|| []
+const projects = (data["projects"]|| []).sort((a, b) => a.order - b.order)
 const languages = data["languages"]|| []
 const skills = data["skills"]|| []
 
