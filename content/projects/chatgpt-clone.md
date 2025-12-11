@@ -4,5 +4,5 @@ type: side_project
 order: 2
 ---
 
-- Sleek and intuitive React-based frontend mimicking ChatGPT, featuring real-time streaming responses and conversation management.
+- [GitHub Repository](https://github.com/GiovanniFerrara/chatgpt-clone) - Sleek and intuitive React-based frontend mimicking ChatGPT, featuring real-time streaming responses and conversation management.
 - Responsive Material-UI design.
