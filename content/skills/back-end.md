@@ -1,13 +1,12 @@
 ---
-title: Backend / AI Stack
+title: AI & Backend Stack
 type: skill
-order: 3
+order: 1
 ---
-- AI Agents Architecture
-- RAG Systems
-- LLMs prompt engineering
-- Vector databases
-- Nest js
-- Nodejs
-- SQL databases
-- AWS
+
+- Multi-Agent Orchestration
+- Realtime Voice AI
+- RAG Systems & Evaluation
+- LLM Prompt Engineering
+- Vector Databases
+- NestJS, Node.js, Python

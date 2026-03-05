@@ -6,5 +6,5 @@ order: 4
 
 - Leadership
 - Problem-solving
-- Teamwork
+- Remote & distributed teams
 - Adaptability

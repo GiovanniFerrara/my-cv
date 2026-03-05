@@ -1,10 +1,9 @@
 ---
 title: Languages
 type: skill
-order: 1
+order: 2
 ---
 
-- JavaScript
-- TypeScript
-- Php - basics
-- Python - basics
+- TypeScript / JavaScript
+- Python
+- SQL
