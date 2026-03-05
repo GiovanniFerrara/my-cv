@@ -1,6 +1,6 @@
 ---
 name: GIAN MARCO FERRARA
-subheader: "AI Engineer & Team Lead"
+subheader: "AI Engineer & AI Lead"
 
 birthdate: 1989-03-17
 phone: +33 7 53 95 95 51

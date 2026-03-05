@@ -1,6 +1,6 @@
 ---
 companyName: Jurny (L.A. - remote)
-title: Generative AI Engineer - Team Lead
+title: Generative AI Engineer - AI Lead
 startPeriod: 2022-02-01
 endPeriod: current
 image: ./jurny.png
