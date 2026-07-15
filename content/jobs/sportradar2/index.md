@@ -7,4 +7,4 @@ image: ./sportradar.jpg
 type: job
 ---
 
-- Improved app performances by eliminating tech debt and replaced old code in order to use modern language features and libraries: React hooks, graphql with Apollo, react query and typescript.
+- Improved application performance and reliability by eliminating tech debt and modernizing legacy code with React hooks, GraphQL with Apollo, React Query and TypeScript.

@@ -7,5 +7,4 @@ image: ./ergo.png
 type: job
 ---
 
-- Integrating new modules to the existing application: e.g. adding an encryption-decryption service and performed a restyling of the UI. Created a statistics dashboard with Typescript/React from scratch. 
-All new modules are now released successfully in production.
+- Integrated new modules into the existing application, including an encryption/decryption service for sensitive data, and built a statistics and monitoring dashboard from scratch with TypeScript/React.

@@ -7,5 +7,5 @@ image: ./sportradar.jpg
 type: job
 ---
 
-- Creating a multi-sports data input platform, connecting machine learning generated data.
-- Building UI with React, Redux, styled-components. AWS based infrastructure, composed by 40+ micro-services.
+- Built a multi-sports data ingestion platform processing real-time, machine-learning-generated event streams.
+- Developed UI with React, Redux, styled-components on an AWS infrastructure composed of 40+ microservices.

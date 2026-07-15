@@ -7,7 +7,7 @@ image: ./jurny.png
 type: job
 ---
 
-- Architected Multi-Agent System (Nia): Built a sophisticated orchestration layer using LLMs to automate complex end-to-end reservation workflows. Impact: Achieved 77% autonomous resolution and slashed guest communication time by ~90%.
-- Distributed Systems & Backend Architecture: Designed and built a distributed backend system with a microservices architecture to run AI workloads reliably at scale.
-- Evaluation & Continuous Improvement: Created an offline and online evaluation system with a reflection mechanism enabling self-improving agents.
-- Product & Frontend Architecture: Previously led a team of 5 developers, establishing scalable React and TypeScript architecture to build the high-performance UI foundation required for fast-scaling products.
+- Architected Multi-Agent System (Nia): Built an event-driven LLM orchestration layer automating complex end-to-end workflows over high-volume, real-time guest communication streams. Impact: 77% autonomous resolution, cutting response time by ~90%.
+- Distributed Systems & Backend Architecture: Designed and built a distributed, microservices-based backend to run AI workloads reliably at scale, with a focus on fault tolerance and observability.
+- Evaluation & Detection Quality: Built offline and online evaluation pipelines with a reflection mechanism for self-improving agents — continuously measuring accuracy, catching regressions, and reducing false positives in production.
+- Engineering Leadership: Previously led a team of 5 developers, building a scalable React/TypeScript UI architecture for fast-scaling products.

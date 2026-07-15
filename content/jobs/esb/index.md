@@ -7,4 +7,4 @@ image: ./esb.jpeg
 type: job
 ---
 
-- Working remotely building the backend in a web app that connects players of Battlefield V for competitive matches. Technologies: Node, Express, MongoDB.
+- Built the backend of a Battlefield V matchmaking app with Node, Express, MongoDB.

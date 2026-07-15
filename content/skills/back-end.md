@@ -5,7 +5,8 @@ order: 3
 ---
 - AI Agents Architecture
 - RAG Systems
-- LLMs prompt engineering
+- LLM prompt engineering
+- Distributed systems
 - Vector databases
 - Nest js
 - Nodejs
