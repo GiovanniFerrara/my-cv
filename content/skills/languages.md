@@ -6,5 +6,5 @@ order: 1
 
 - JavaScript
 - TypeScript
-- Php - basics
-- Python - basics
+- PHP
+- Python

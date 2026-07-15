@@ -1,11 +1,11 @@
 ---
 name: GIAN MARCO FERRARA
-subheader: "Applied AI Engineer & Team Lead"
+subheader: "Senior Software AI Engineer"
 
 birthdate: 1989-03-17
-phone: +33 7 53 95 95 51
+phone: +48 796 798 591
 email: gianmarco.ferrara@gmail.com
-address: Paris, France
+address: Warsaw, Poland
 github: https://www.github.com/GiovanniFerrara/
 linkedin: https://www.linkedin.com/in/giovanni-marco-ferrara/
 type: personal_info
